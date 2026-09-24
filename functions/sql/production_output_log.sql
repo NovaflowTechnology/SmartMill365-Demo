@@ -1,0 +1,20 @@
+CREATE TABLE IF NOT EXISTS production_output_log (
+  id                   INT           NOT NULL AUTO_INCREMENT PRIMARY KEY,
+  `date`               DATE          NOT NULL,
+  `time`               VARCHAR(16)   NULL,
+  machine_id           VARCHAR(191)  NOT NULL,
+  work_order_number    VARCHAR(191)  NULL,
+  product              VARCHAR(191)  NULL,
+  process_department   VARCHAR(191)  NULL,
+  shift                VARCHAR(191)  NULL,
+  shift_start_time     VARCHAR(16)   NULL,
+  previous_reading     DECIMAL(14,2) NULL,
+  meter_reading_now    DECIMAL(14,2) NULL,
+  kwh                  DECIMAL(14,2) NOT NULL,
+  tonnes               DECIMAL(14,2) NOT NULL,
+  report_by            VARCHAR(191)  NULL,
+  user_id              VARCHAR(191)  NULL,
+  created_at           DATETIME      NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  updated_at           DATETIME      NULL ON UPDATE CURRENT_TIMESTAMP,
+  INDEX idx_production_output_log_machine_date (machine_id, `date`)
+);

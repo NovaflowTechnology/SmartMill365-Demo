@@ -1,0 +1,118 @@
+  Widget _buildSourceGroup(BuildContext context, SankeyNode source,
+      List<SankeyTier> tiers, Map<String, SankeyNode> byId) {
+    final isLight = _isLight(context);
+    final border = BorderSide(color: _borderCol(t, isLight: isLight));
+
+    return Container(
+      decoration: BoxDecoration(border: Border(bottom: border)),
+      child: IntrinsicHeight(
+        child: Row(
+          crossAxisAlignment: CrossAxisAlignment.stretch,
+          children: [
+            // 1. Remove button for this source group
+            _buildRemoveCellForSource(context, source, tiers, byId),
+
+            // 2. The Source Node Column
+            Container(
+              width: _kCol,
+              decoration: BoxDecoration(border: Border(right: border)),
+              child: Column(
+                children: [
+                  _addBtn(t, '+ Add ${tiers[0].label}', () => cubit.addNodeToTier(tiers[0].id)),
+                  _buildFlatRow(context, source, tiers[0]),
+                  _addBtn(t, '+ Add ${tiers[0].label}', () => cubit.addNodeToTier(tiers[0].id)),
+                ],
+              ),
+            ),
+
+            // 3. The Branches (Recursive)
+            Expanded(
+              child: _renderRecursiveBranch(context, source, tiers, 1, byId),
+            ),
+          ],
+        ),
+      ),
+    );
+  }
+
+  Widget _renderRecursiveBranch(BuildContext context, SankeyNode parent,
+      List<SankeyTier> tiers, int ti, Map<String, SankeyNode> byId) {
+    if (ti >= tiers.length) return const SizedBox.shrink();
+
+    final isLight = _isLight(context);
+    final border = BorderSide(color: _borderCol(t, isLight: isLight));
+    final tier = tiers[ti];
+    final children = parent.targetIds
+        .map((id) => byId[id])
+        .whereType<SankeyNode>()
+        .where((n) => n.tierId == tier.id && !n.removed)
+        .toList();
+
+    // If no children, show a placeholder slot to add one
+    if (children.isEmpty) {
+      return Container(
+        width: _kCol,
+        decoration: BoxDecoration(border: Border(right: border)),
+        child: Center(
+          child: _addBtn(
+            t,
+            '+ Add ${tier.label}',
+            () => cubit.addChildUnder(parent.id, tier.id),
+          ),
+        ),
+      );
+    }
+
+    return Column(
+      mainAxisSize: MainAxisSize.min,
+      children: [
+        for (final child in children)
+          IntrinsicHeight(
+            child: Row(
+              crossAxisAlignment: CrossAxisAlignment.stretch,
+              children: [
+                // Child Node Column
+                Container(
+                  width: _kCol,
+                  decoration: BoxDecoration(border: Border(right: border)),
+                  child: Column(
+                    children: [
+                      _addBtn(t, '+ Add ${tier.label}', () => cubit.addChildUnder(parent.id, tier.id)),
+                      _buildFlatRow(context, child, tier),
+                      _addBtn(t, '+ Add ${tier.label}', () => cubit.addChildUnder(parent.id, tier.id)),
+                    ],
+                  ),
+                ),
+
+                // Next level branches
+                if (ti + 1 < tiers.length)
+                  Expanded(
+                    child: _renderRecursiveBranch(context, child, tiers, ti + 1, byId),
+                  ),
+              ],
+            ),
+          ),
+      ],
+    );
+  }
+
+  /// Finds nodes in [targetTi] that descend from [root].
+  List<SankeyNode> _getDescendantsInTier(SankeyNode root, List<SankeyTier> tiers,
+      int targetTi, Map<String, SankeyNode> byId) {
+    if (targetTi == 0) return [root];
+    List<SankeyNode> current = [root];
+    for (int i = 1; i <= targetTi; i++) {
+      final next = <SankeyNode>[];
+      for (final n in current) {
+        for (final id in n.targetIds) {
+          final child = byId[id];
+          if (child != null && child.tierId == tiers[i].id && !child.removed) {
+            next.add(child);
+          }
+        }
+      }
+      current = next;
+    }
+    return current;
+  }
+}

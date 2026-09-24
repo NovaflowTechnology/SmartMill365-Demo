@@ -1,0 +1,4 @@
+
+.vscode/templates
+/build/
+serviceAccountKey.json

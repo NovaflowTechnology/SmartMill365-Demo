@@ -1,0 +1,76 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Current Existing Flow" id="current-flow-1">
+    <mxGraphModel dx="1200" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="900" pageHeight="700" math="0" shadow="0" background="#1e1e1e">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <!-- Top row: clients -->
+        <mxCell id="danapac_top" value="Danapac" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#000000;strokeColor=#ffffff;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="320" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="demo_top" value="Demo" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#000000;strokeColor=#ffffff;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="500" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="thongguan_top" value="Thonguan" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#000000;strokeColor=#ffffff;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="670" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+
+        <!-- Module boxes -->
+        <mxCell id="energy_module" value="Energy Monitoring" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#000000;strokeColor=#ffffff;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="200" y="190" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="equipment_module" value="Equipment Monitoring" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#000000;strokeColor=#ffffff;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="200" y="310" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="setting_module" value="Setting Module" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#000000;strokeColor=#ffffff;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="200" y="430" width="120" height="50" as="geometry" />
+        </mxCell>
+
+        <!-- Influx box -->
+        <mxCell id="influx_box" value="Influx" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#000000;strokeColor=#ffffff;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="400" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+
+        <!-- Database cylinders (left) -->
+        <mxCell id="danapac_db" value="Danapac" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#000000;strokeColor=#ffffff;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="70" y="220" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="intech_db" value="Intech" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#000000;strokeColor=#ffffff;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="70" y="340" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="firestore_db" value="Firestore(Intech SF365)" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#000000;strokeColor=#ffffff;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="40" y="460" width="110" height="70" as="geometry" />
+        </mxCell>
+
+        <!-- DB -> module lines -->
+        <mxCell id="l1" style="edgeStyle=none;html=1;endArrow=none;strokeColor=#ffffff;" edge="1" parent="1" source="danapac_db" target="energy_module">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l2" style="edgeStyle=none;html=1;endArrow=none;strokeColor=#ffffff;" edge="1" parent="1" source="intech_db" target="equipment_module">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l3" style="edgeStyle=none;html=1;endArrow=none;strokeColor=#ffffff;" edge="1" parent="1" source="firestore_db" target="setting_module">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- Crossing lines: Danapac -> Influx + Equipment Monitoring; Demo -> Energy Monitoring + Influx -->
+        <mxCell id="c1" style="edgeStyle=none;html=1;endArrow=none;strokeColor=#ffffff;" edge="1" parent="1" source="danapac_top" target="influx_box">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c2" style="edgeStyle=none;html=1;endArrow=none;strokeColor=#ffffff;" edge="1" parent="1" source="danapac_top" target="equipment_module">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c3" style="edgeStyle=none;html=1;endArrow=none;strokeColor=#ffffff;" edge="1" parent="1" source="demo_top" target="energy_module">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c4" style="edgeStyle=none;html=1;endArrow=none;strokeColor=#ffffff;" edge="1" parent="1" source="demo_top" target="influx_box">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- Thonguan: standalone, no connections -->
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

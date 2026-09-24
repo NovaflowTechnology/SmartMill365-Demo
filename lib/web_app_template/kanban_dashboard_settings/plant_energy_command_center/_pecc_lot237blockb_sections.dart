@@ -1,0 +1,170 @@
+part of 'plant_energy_command_center_setting_widget.dart';
+
+// Lot 237 Block B — Factory Overview Setting Sections
+extension _PeccLot237BlockBSections on _PlantEnergyCommandCenterSettingWidgetState {
+  static const _blockBPower = [
+    'Total Energy (kWh)',
+    'Daily Energy (kWh)',
+    'Active Power (kW)',
+    'Max Demand 30-min (kW)',
+    'Power Factor (%)',
+    'Current (A)',
+    'Voltage (V)',
+    'Carbon (kgCO2e)',
+  ];
+
+  void _initLot237BlockBSections() {
+    _sections = [
+      _Section(
+        title: 'Energy Summary (Left Panel)',
+        subtitle: 'Total Consumption, Current Demand, Peak Demand, Estimated EOD',
+        icon: Icons.flash_on_outlined,
+        iconBg: const Color(0x1A22D3EE),
+        iconColor: const Color(0xFF22D3EE),
+        widgets: [
+          _WidgetMapping(
+            key: 'summary.total_consumption',
+            label: 'Total Consumption (kWh)',
+            locationKey: 'summary.total_consumption',
+            icon: Icons.bolt,
+            iconBg: const Color(0x1A4F9EFF),
+            iconColor: const Color(0xFF4F9EFF),
+            unit: 'kWh',
+            availableFields: _blockBPower,
+          ),
+          _WidgetMapping(
+            key: 'summary.current_demand',
+            label: 'Current Demand (kW)',
+            locationKey: 'summary.current_demand',
+            icon: Icons.show_chart,
+            iconBg: const Color(0x1A4F9EFF),
+            iconColor: const Color(0xFF4F9EFF),
+            unit: 'kW',
+            availableFields: _blockBPower,
+          ),
+          _WidgetMapping(
+            key: 'summary.peak_demand',
+            label: 'Peak Demand (kW)',
+            locationKey: 'summary.peak_demand',
+            icon: Icons.bar_chart,
+            iconBg: const Color(0x1A4F9EFF),
+            iconColor: const Color(0xFF4F9EFF),
+            unit: 'kW',
+            availableFields: _blockBPower,
+          ),
+          _WidgetMapping(
+            key: 'summary.estimated_eod',
+            label: 'Estimated EOD (kWh)',
+            locationKey: 'summary.estimated_eod',
+            icon: Icons.timelapse,
+            iconBg: const Color(0x1A4F9EFF),
+            iconColor: const Color(0xFF4F9EFF),
+            unit: 'kWh',
+            availableFields: _blockBPower,
+          ),
+        ],
+      ),
+      _Section(
+        title: 'Demand Forecast & Cost Estimation',
+        subtitle: 'Expected Peak, Time Window, Estimated Cost EOD',
+        icon: Icons.trending_up,
+        iconBg: const Color(0x1A34D399),
+        iconColor: const Color(0xFF34D399),
+        widgets: [
+          _WidgetMapping(
+            key: 'forecast.expected_peak',
+            label: 'Expected Peak (kW)',
+            locationKey: 'forecast.expected_peak',
+            icon: Icons.speed,
+            iconBg: const Color(0x1A34D399),
+            iconColor: const Color(0xFF34D399),
+            unit: 'kW',
+            availableFields: _blockBPower,
+          ),
+          _WidgetMapping(
+            key: 'cost.estimated_eod',
+            label: 'Estimated Cost EOD (RM)',
+            locationKey: 'cost.estimated_eod',
+            icon: Icons.attach_money,
+            iconBg: const Color(0x1AF59E0B),
+            iconColor: const Color(0xFFF59E0B),
+            unit: 'RM',
+            availableFields: _blockBPower,
+          ),
+        ],
+      ),
+      _Section(
+        // These mappings drive the machine badges on the centre floor map, so
+        // the section is named for the centre. "(Right Panel)" is reserved for
+        // sections that configure the right-hand panel itself.
+        title: 'Machine Consumers (Center — Floor Map)',
+        subtitle: '6 machines on the floor map (Extruders, Dryers, etc.)',
+        icon: Icons.pie_chart_outline,
+        iconBg: const Color(0x1AF43F5E),
+        iconColor: const Color(0xFFF43F5E),
+        widgets: [
+          _WidgetMapping(
+            key: 'consumer[0]',
+            label: 'Top Consumer #1',
+            locationKey: 'Top Consumer #1',
+            icon: Icons.precision_manufacturing,
+            iconBg: const Color(0x1AF43F5E),
+            iconColor: const Color(0xFFF43F5E),
+            unit: 'kW',
+            availableFields: _blockBPower,
+          ),
+          _WidgetMapping(
+            key: 'consumer[1]',
+            label: 'Top Consumer #2',
+            locationKey: 'Top Consumer #2',
+            icon: Icons.precision_manufacturing,
+            iconBg: const Color(0x1AF97316),
+            iconColor: const Color(0xFFF97316),
+            unit: 'kW',
+            availableFields: _blockBPower,
+          ),
+          _WidgetMapping(
+            key: 'consumer[2]',
+            label: 'Top Consumer #3',
+            locationKey: 'Top Consumer #3',
+            icon: Icons.precision_manufacturing,
+            iconBg: const Color(0x1AF59E0B),
+            iconColor: const Color(0xFFF59E0B),
+            unit: 'kW',
+            availableFields: _blockBPower,
+          ),
+          _WidgetMapping(
+            key: 'consumer[3]',
+            label: 'Top Consumer #4',
+            locationKey: 'Top Consumer #4',
+            icon: Icons.precision_manufacturing,
+            iconBg: const Color(0x1A22D3EE),
+            iconColor: const Color(0xFF22D3EE),
+            unit: 'kW',
+            availableFields: _blockBPower,
+          ),
+          _WidgetMapping(
+            key: 'consumer[4]',
+            label: 'Top Consumer #5',
+            locationKey: 'Top Consumer #5',
+            icon: Icons.precision_manufacturing,
+            iconBg: const Color(0x1A22D3EE),
+            iconColor: const Color(0xFF22D3EE),
+            unit: 'kW',
+            availableFields: _blockBPower,
+          ),
+          _WidgetMapping(
+            key: 'consumer[5]',
+            label: 'Top Consumer #6',
+            locationKey: 'Top Consumer #6',
+            icon: Icons.precision_manufacturing,
+            iconBg: const Color(0x1A34D399),
+            iconColor: const Color(0xFF34D399),
+            unit: 'kW',
+            availableFields: _blockBPower,
+          ),
+        ],
+      ),
+    ];
+  }
+}

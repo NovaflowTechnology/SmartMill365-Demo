@@ -1,0 +1,76 @@
+// Export pages
+export '/web_app_template/equipment_overview/equipment_overview_widget.dart'
+    show EquipmentOverviewWidget;
+export '/web_app_template/alarm_settings/alarm_settings_widget.dart'
+    show AlarmSettingsWidget;
+export '/web_app_template/device_settings/device_settings_widget.dart'
+    show DeviceSettingsWidget;
+export '/web_app_template/equipment_settings/equipment_settings_widget.dart'
+    show EquipmentSettingsWidget;
+export '/web_app_template/manage_user_groups/manage_user_groups_widget.dart'
+    show ManageUserGroupsWidget;
+export '/login_page/login_page_widget.dart' show LoginPageWidget;
+export '/web_app_template/equipment_details/equipment_details_widget.dart'
+    show EquipmentDetailsWidget;
+export '/web_app_template/energy_overview/energy_overview_widget.dart'
+    show EnergyOverviewWidget;
+export '/web_app_template/energy_details/energy_details_widget.dart'
+    show EnergyDetailsWidget;
+export '/web_app_template/work_order_overview/work_order_overview_widget.dart'
+    show WorkOrderOverviewWidget;
+export '/web_app_template/carbon_emission/carbon_emission_widget.dart'
+    show CarbonEmissionWidget;
+export '/web_app_template/air_compressor_monitoring/air_compressor_monitoring_widget.dart'
+    show AirCompressorMonitoringWidget;
+export '/web_app_template/reports/reports_widget.dart' show ReportsWidget;
+export '/web_app_template/md_insight_report/md_insight_report_widget.dart'
+    show MdInsightReportWidget;
+export 'web_app_template/energy_comparison/energy_comparison_widget.dart'
+    show EnergyComparisonWidget;
+export 'web_app_template/device_energy_comparison/device_energy_comparison_widget.dart'
+    show DeviceEnergyComparisonWidget;
+export '/web_app_template/production_line_k_p_i/production_line_k_p_i_widget.dart'
+    show ProductionLineKPIWidget;
+export '/web_app_template/factory25_dashboard/factory25_dashboard_widget.dart'
+    show Factory25DashboardWidget;
+export '/web_app_template/work_order_report/work_order_report_widget.dart'
+    show WorkOrderReportWidget;
+export '/web_app_template/product_settings/product_settings_widget.dart'
+    show ProductSettingsWidget;
+export '/web_app_template/oee_data/oee_data_widget.dart' show OeeDataWidget;
+export '/web_app_template/energy_data_logger_1/energy_data_logger_1_widget.dart'
+    show EnergyDataLogger1Widget;
+export '/web_app_template/energy_data_logger/energy_data_logger_widget.dart'
+    show EnergyDataLoggerWidget;
+export '/web_app_template/energy_data_logger_2/energy_data_logger_2_widget.dart'
+    show EnergyDataLogger2Widget;
+export '/web_app_template/energy_vs_work_order/energy_vs_work_order_widget.dart'
+    show EnergyVsWorkOrderWidget;
+export '/web_app_template/equipment_energy_data/equipment_energy_data_widget.dart'
+    show EquipmentEnergyDataWidget;
+export '/web_app_template/equipment_status_data/equipment_status_data_widget.dart'
+    show EquipmentStatusDataWidget;
+export '/web_app_template/equipment_data_logger/equipment_data_logger_widget.dart'
+    show EquipmentDataLoggerWidget;
+export '/web_app_template/equipment_alarm_data/equipment_alarm_data_widget.dart'
+    show EquipmentAlarmDataWidget;
+export '/web_app_template/production_calendar/production_calendar_widget.dart'
+    show ProductionCalendarWidget;
+export '/web_app_template/mc_wo_qty_data_logger/mc_wo_qty_data_logger_widget.dart'
+    show McWoQtyDataLoggerWidget;
+export '/web_app_template/production_task_work_station/production_task_work_station_widget.dart'
+    show ProductionTaskWorkStationWidget;
+export '/web_app_template/tnb_e3_bill_simulator/tnb_e3_bill_simulator_widget.dart'
+     show TnbE3BillSimulatorWidget;
+export '/web_app_template/tnb_bill_data_logger/tnb_bill_data_logger_widget.dart'
+    show TnbBillDataLoggerWidget;
+export '/web_app_template/kanban_dashboard/kanban_dashboard_widget.dart'
+    show KanbanDashboardWidget;
+export '/web_app_template/kwh_per_tonne/kwh_per_tonne_widget.dart'
+    show KwhPerTonneWidget;
+export '/web_app_template/sec_comparison_insight/sec_comparison_insight_widget.dart'
+    show SecComparisonInsightWidget;
+export '/web_app_template/production_output_log/production_output_log_widget.dart'
+    show ProductionOutputLogWidget;
+export '/web_app_template/master_facility_setting/master_facility_setting_widget.dart'
+    show MasterFacilitySettingWidget;

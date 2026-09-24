@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "568766072660",
+    "firebase_url": "https://smartmachine365-gm3bl9-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "smartmachine365-gm3bl9",
+    "storage_bucket": "smartmachine365-gm3bl9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:568766072660:android:fb3d4163231129d8cc6ac1",
+        "android_client_info": {
+          "package_name": "com.mycompany.smartmachine365"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBvZNJdQ5EzbpELGoBHKnbluxTQTBE0-Pw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

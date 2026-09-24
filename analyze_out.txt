@@ -1,0 +1,1153 @@
+Analyzing SMARTFACTORY365-DEMO...                               
+
+warning - The value of the field '_phoneAuthVerificationCode' isn't used - lib\auth\firebase_auth\firebase_auth_manager.dart:52:11 - unused_field
+warning - The value of the field '_webPhoneAuthConfirmationResult' isn't used - lib\auth\firebase_auth\firebase_auth_manager.dart:54:23 - unused_field
+   info - Don't invoke 'print' in production code - lib\auth\firebase_auth\firebase_auth_manager.dart:66:9 - avoid_print
+   info - Don't invoke 'print' in production code - lib\auth\firebase_auth\firebase_auth_manager.dart:89:9 - avoid_print
+warning - The method doesn't override an inherited method - lib\auth\firebase_auth\firebase_auth_manager.dart:107:10 - override_on_non_overriding_member
+   info - Don't invoke 'print' in production code - lib\auth\firebase_auth\firebase_auth_manager.dart:113:9 - avoid_print
+warning - The declaration '_kPrivateApiFunctionName' isn't referenced - lib\backend\api_requests\api_calls.dart:9:7 - unused_element
+warning - The declaration '_serializeList' isn't referenced - lib\backend\api_requests\api_calls.dart:53:8 - unused_element
+warning - The declaration '_serializeJson' isn't referenced - lib\backend\api_requests\api_calls.dart:65:8 - unused_element
+warning - This 'onError' handler must return a value assignable to 'AggregateQuerySnapshot', but ends without returning a value - lib\backend\backend.dart:67:47 - body_might_complete_normally_catch_error
+   info - Don't invoke 'print' in production code - lib\backend\backend.dart:68:5 - avoid_print
+   info - Don't invoke 'print' in production code - lib\backend\backend.dart:85:5 - avoid_print
+   info - Don't invoke 'print' in production code - lib\backend\backend.dart:90:18 - avoid_print
+   info - Don't invoke 'print' in production code - lib\backend\backend.dart:114:18 - avoid_print
+   info - Don't invoke 'print' in production code - lib\backend\backend.dart:179:18 - avoid_print
+   info - Don't invoke 'print' in production code - lib\backend\firebase\firebase_config.dart:21:7 - avoid_print
+   info - Statements in a for should be enclosed in a block - lib\components\data_table\data_table_widget.dart:153:37 - curly_braces_in_flow_control_structures
+   info - The import of 'dart:ui' is unnecessary because all of the used elements are also provided by the import of 'package:flutter/material.dart' - lib\components\dialogs\custom_dialog.dart:1:8 - unnecessary_import
+   info - Function literals shouldn't be passed to 'forEach' - lib\flutter_flow\flutter_flow_model.dart:129:44 - avoid_function_literals_in_foreach_calls
+   info - Use 'TypeName _' instead of a type literal - lib\flutter_flow\flutter_flow_model.dart:156:10 - type_literal_in_constant_pattern
+   info - Use 'TypeName _' instead of a type literal - lib\flutter_flow\flutter_flow_model.dart:158:10 - type_literal_in_constant_pattern
+   info - Use 'TypeName _' instead of a type literal - lib\flutter_flow\flutter_flow_model.dart:160:10 - type_literal_in_constant_pattern
+   info - Use 'TypeName _' instead of a type literal - lib\flutter_flow\flutter_flow_model.dart:162:10 - type_literal_in_constant_pattern
+   info - Use 'TypeName _' instead of a type literal - lib\flutter_flow\flutter_flow_util.dart:173:10 - type_literal_in_constant_pattern
+   info - Use 'TypeName _' instead of a type literal - lib\flutter_flow\flutter_flow_util.dart:176:10 - type_literal_in_constant_pattern
+   info - The import of 'package:smartmachine365/web_app_template/kanban_dashboard/kanban_dashboard_widget.dart' is unnecessary because all of the used elements are also provided by the import of '/index.dart' - lib\flutter_flow\nav\nav.dart:7:8 - unnecessary_import
+   info - The import of 'package:smartmachine365/web_app_template/master_facility_setting/master_facility_setting_widget.dart' is unnecessary because all of the used elements are also provided by the import of '/index.dart' - lib\flutter_flow\nav\nav.dart:10:8 - unnecessary_import
+   info - Don't invoke 'print' in production code - lib\flutter_flow\nav\nav.dart:89:11 - avoid_print
+   info - Don't invoke 'print' in production code - lib\flutter_flow\nav\nav.dart:109:11 - avoid_print
+   info - Use 'const' with the constructor to improve performance - lib\flutter_flow\nav\nav.dart:211:22 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\flutter_flow\nav\nav.dart:212:24 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\flutter_flow\nav\nav.dart:261:22 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\flutter_flow\nav\nav.dart:262:24 - prefer_const_constructors
+   info - Don't invoke 'print' in production code - lib\flutter_flow\nav\serialization_util.dart:94:5 - avoid_print
+   info - The constant name 'String' isn't a lowerCamelCase identifier - lib\flutter_flow\nav\serialization_util.dart:167:3 - constant_identifier_names
+   info - The constant name 'DateTime' isn't a lowerCamelCase identifier - lib\flutter_flow\nav\serialization_util.dart:169:3 - constant_identifier_names
+   info - The constant name 'DateTimeRange' isn't a lowerCamelCase identifier - lib\flutter_flow\nav\serialization_util.dart:170:3 - constant_identifier_names
+   info - The constant name 'LatLng' isn't a lowerCamelCase identifier - lib\flutter_flow\nav\serialization_util.dart:171:3 - constant_identifier_names
+   info - The constant name 'Color' isn't a lowerCamelCase identifier - lib\flutter_flow\nav\serialization_util.dart:172:3 - constant_identifier_names
+   info - The constant name 'FFPlace' isn't a lowerCamelCase identifier - lib\flutter_flow\nav\serialization_util.dart:173:3 - constant_identifier_names
+   info - The constant name 'FFUploadedFile' isn't a lowerCamelCase identifier - lib\flutter_flow\nav\serialization_util.dart:174:3 - constant_identifier_names
+   info - The constant name 'JSON' isn't a lowerCamelCase identifier - lib\flutter_flow\nav\serialization_util.dart:175:3 - constant_identifier_names
+   info - The constant name 'Document' isn't a lowerCamelCase identifier - lib\flutter_flow\nav\serialization_util.dart:177:3 - constant_identifier_names
+   info - The constant name 'DocumentReference' isn't a lowerCamelCase identifier - lib\flutter_flow\nav\serialization_util.dart:178:3 - constant_identifier_names
+   info - Don't invoke 'print' in production code - lib\flutter_flow\nav\serialization_util.dart:238:5 - avoid_print
+   info - Don't invoke 'print' in production code - lib\flutter_flow\nav\user_provider.dart:43:9 - avoid_print
+   info - Don't invoke 'print' in production code - lib\flutter_flow\nav\user_provider.dart:50:5 - avoid_print
+   info - The file name 'fogotPass.dart' isn't a lower_case_with_underscores identifier - lib\login_page\fogotPass.dart:1:1 - file_names
+   info - Don't invoke 'print' in production code - lib\login_page\login_page_widget.dart:169:7 - avoid_print
+   info - Invalid use of a private type in a public API - lib\main.dart:34:10 - library_private_types_in_public_api
+warning - Unused import: 'dart:typed_data' - lib\utils\report_exporter.dart:1:8 - unused_import
+   info - Don't use web-only libraries outside Flutter web plugins - lib\utils\report_exporter.dart:15:1 - avoid_web_libraries_in_flutter
+   info - Use 'const' with the constructor to improve performance - lib\utils\report_exporter.dart:35:19 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\utils\report_exporter.dart:57:19 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\utils\report_exporter.dart:100:19 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\utils\report_exporter.dart:138:19 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\utils\report_exporter.dart:181:19 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\utils\report_exporter.dart:219:19 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\utils\report_exporter.dart:251:9 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\utils\report_exporter.dart:252:20 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\utils\report_exporter.dart:254:21 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\utils\report_exporter.dart:262:21 - prefer_const_constructors
+   info - Don't invoke 'print' in production code - lib\utils\report_exporter.dart:292:11 - avoid_print
+   info - Use 'const' with the constructor to improve performance - lib\utils\report_exporter.dart:321:23 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\utils\report_exporter.dart:335:23 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\utils\report_exporter.dart:349:21 - prefer_const_constructors
+warning - The value of the local variable 'anchor' isn't used - lib\utils\report_exporter.dart:360:13 - unused_local_variable
+   info - Use 'const' with the constructor to improve performance - lib\utils\report_exporter.dart:381:20 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\utils\report_exporter.dart:391:16 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\utils\report_exporter.dart:419:23 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\utils\report_exporter.dart:422:24 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\utils\report_exporter.dart:426:24 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\utils\report_exporter.dart:443:20 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\utils\report_exporter.dart:447:20 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\utils\report_exporter.dart:464:12 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\utils\report_exporter.dart:465:12 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\utils\report_exporter.dart:466:12 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\utils\report_exporter.dart:467:12 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\utils\report_exporter.dart:471:23 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\utils\report_exporter.dart:474:24 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\utils\report_exporter.dart:478:24 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\utils\report_exporter.dart:482:24 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\utils\report_exporter.dart:486:24 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\utils\report_exporter.dart:495:32 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\utils\report_exporter.dart:499:32 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\utils\report_exporter.dart:503:32 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\utils\report_exporter.dart:507:32 - prefer_const_constructors
+   info - Unnecessary use of 'toList' in a spread - lib\utils\report_exporter.dart:512:14 - unnecessary_to_list_in_spreads
+   info - Use 'const' with the constructor to improve performance - lib\utils\report_exporter.dart:527:12 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\utils\report_exporter.dart:528:12 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\utils\report_exporter.dart:529:12 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\utils\report_exporter.dart:530:12 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\utils\report_exporter.dart:534:23 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\utils\report_exporter.dart:537:24 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\utils\report_exporter.dart:541:24 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\utils\report_exporter.dart:545:24 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\utils\report_exporter.dart:549:24 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\utils\report_exporter.dart:558:32 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\utils\report_exporter.dart:562:32 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\utils\report_exporter.dart:566:32 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\utils\report_exporter.dart:570:32 - prefer_const_constructors
+   info - Unnecessary use of 'toList' in a spread - lib\utils\report_exporter.dart:575:14 - unnecessary_to_list_in_spreads
+   info - Don't use web-only libraries outside Flutter web plugins - lib\web_app_template\alarm_settings\add.dart:4:1 - avoid_web_libraries_in_flutter
+   info - Invalid use of a private type in a public API - lib\web_app_template\alarm_settings\add.dart:20:3 - library_private_types_in_public_api
+   info - Don't use web-only libraries outside Flutter web plugins - lib\web_app_template\alarm_settings\edit.dart:4:1 - avoid_web_libraries_in_flutter
+   info - Invalid use of a private type in a public API - lib\web_app_template\alarm_settings\edit.dart:34:3 - library_private_types_in_public_api
+   info - The type name 'showESOPDialog' isn't an UpperCamelCase identifier - lib\web_app_template\alarm_settings\esop.dart:4:7 - camel_case_types
+   info - Invalid use of a private type in a public API - lib\web_app_template\alarm_settings\esop.dart:19:3 - library_private_types_in_public_api
+   info - The type name '_showESOPDialogState' isn't an UpperCamelCase identifier - lib\web_app_template\alarm_settings\esop.dart:22:7 - camel_case_types
+   info - Don't invoke 'print' in production code - lib\web_app_template\alarm_settings\esop.dart:52:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\alarm_settings\firestore_service.dart:181:7 - avoid_print
+   info - Invalid use of a private type in a public API - lib\web_app_template\alarm_settings\view.dart:15:3 - library_private_types_in_public_api
+   info - Don't invoke 'print' in production code - lib\web_app_template\alarm_settings\view.dart:55:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\alarm_settings\view.dart:94:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\alarm_settings\view.dart:140:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\alarm_settings\view.dart:176:7 - avoid_print
+   info - Invalid use of a private type in a public API - lib\web_app_template\device_settings\edit.dart:25:3 - library_private_types_in_public_api
+   info - Don't invoke 'print' in production code - lib\web_app_template\device_settings\firestore_service.dart:49:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\device_settings\firestore_service.dart:85:9 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\device_settings\firestore_service.dart:106:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\device_settings\firestore_service.dart:131:9 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\device_settings\firestore_service.dart:137:9 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\device_settings\firestore_service.dart:140:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\device_settings\firestore_service.dart:148:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\device_settings\firestore_service.dart:173:15 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\device_settings\firestore_service.dart:177:9 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\device_settings\firestore_service.dart:179:9 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\device_settings\firestore_service.dart:182:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\device_settings\firestore_service.dart:220:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\device_settings\firestore_service.dart:229:7 - avoid_print
+   info - Invalid use of a private type in a public API - lib\web_app_template\device_settings\view.dart:10:3 - library_private_types_in_public_api
+   info - Don't invoke 'print' in production code - lib\web_app_template\device_settings\view.dart:52:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\device_settings\view.dart:54:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\device_settings\view.dart:66:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\device_settings\view.dart:92:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\device_settings\view.dart:118:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\device_settings\view.dart:146:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\device_settings\view.dart:184:7 - avoid_print
+   info - The file name 'Powerconsumptionhourlyenergydetailscard_widget.dart' isn't a lower_case_with_underscores identifier - lib\web_app_template\energy_comparison\Powerconsumptionhourlyenergydetailscard_widget.dart:1:1 - file_names
+   info - The import of 'package:intl/intl.dart' is unnecessary because all of the used elements are also provided by the import of 'package:smartmachine365/flutter_flow/flutter_flow_util.dart' - lib\web_app_template\energy_comparison\Powerconsumptionhourlyenergydetailscard_widget.dart:6:8 - unnecessary_import
+warning - The value of the local variable 'fixedMin' isn't used - lib\web_app_template\energy_comparison\Powerconsumptionhourlyenergydetailscard_widget.dart:131:18 - unused_local_variable
+warning - The value of the local variable 'fixedMax' isn't used - lib\web_app_template\energy_comparison\Powerconsumptionhourlyenergydetailscard_widget.dart:132:18 - unused_local_variable
+   info - The import of 'dart:convert' is unnecessary because all of the used elements are also provided by the import of '/flutter_flow/flutter_flow_util.dart' - lib\web_app_template\energy_comparison\energy_comparison_widget.dart:2:8 - unnecessary_import
+   info - The import of 'package:intl/intl.dart' is unnecessary because all of the used elements are also provided by the import of '/flutter_flow/flutter_flow_util.dart' - lib\web_app_template\energy_comparison\energy_comparison_widget.dart:12:8 - unnecessary_import
+   info - Don't invoke 'print' in production code - lib\web_app_template\energy_comparison\energy_comparison_widget.dart:105:13 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\energy_comparison\energy_comparison_widget.dart:111:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\energy_comparison\energy_comparison_widget.dart:150:9 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\energy_comparison\energy_comparison_widget.dart:173:9 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\energy_comparison\energy_comparison_widget.dart:178:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\energy_comparison\energy_comparison_widget.dart:209:9 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\energy_comparison\energy_comparison_widget.dart:214:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\energy_comparison\energy_comparison_widget.dart:245:9 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\energy_comparison\energy_comparison_widget.dart:250:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\energy_comparison\energy_comparison_widget.dart:280:9 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\energy_comparison\energy_comparison_widget.dart:285:7 - avoid_print
+   info - The parameter name 'callback' doesn't match the name 'fn' in the overridden method - lib\web_app_template\energy_comparison\powerconsumptionenergydetailscard_widget.dart:30:30 - avoid_renaming_method_parameters
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\energy_comparison\powerconsumptionenergydetailscard_widget.dart:163:28 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\energy_comparison\powerconsumptionenergydetailscard_widget.dart:164:31 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\energy_comparison\powerconsumptionenergydetailscard_widget.dart:166:30 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\energy_comparison\powerconsumptionenergydetailscard_widget.dart:167:31 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\energy_comparison\powerconsumptionenergydetailscard_widget.dart:261:16 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\energy_comparison\powerconsumptionenergydetailscard_widget.dart:319:42 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\energy_comparison\powerconsumptionenergydetailscard_widget.dart:320:45 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\energy_comparison\powerconsumptionenergydetailscard_widget.dart:322:44 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\energy_comparison\powerconsumptionenergydetailscard_widget.dart:323:45 - prefer_const_constructors
+   info - Don't invoke 'print' in production code - lib\web_app_template\energy_data_logger_1\view.dart:75:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\energy_data_logger_1\view.dart:176:9 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\energy_data_logger_1\view.dart:187:7 - avoid_print
+   info - The file name 'Powerconsumptionhourlyenergydetailscard_widget.dart' isn't a lower_case_with_underscores identifier - lib\web_app_template\energy_details\Powerconsumptionhourlyenergydetailscard_widget.dart:1:1 - file_names
+   info - The import of 'package:intl/intl.dart' is unnecessary because all of the used elements are also provided by the import of 'package:smartmachine365/flutter_flow/flutter_flow_util.dart' - lib\web_app_template\energy_details\Powerconsumptionhourlyenergydetailscard_widget.dart:6:8 - unnecessary_import
+warning - Unused import: '/web_app_template/side_nav/side_nav_widget.dart' - lib\web_app_template\energy_details\energy_details_model.dart:12:8 - unused_import
+warning - The declaration '_convertDurationToMinutes' isn't referenced - lib\web_app_template\energy_details\energy_details_widget.dart:104:10 - unused_element
+   info - Don't invoke 'print' in production code - lib\web_app_template\energy_details\energy_details_widget.dart:131:27 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\energy_details\energy_details_widget.dart:174:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\energy_details\energy_details_widget.dart:175:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\energy_details\energy_details_widget.dart:177:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\energy_details\energy_details_widget.dart:178:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\energy_details\energy_details_widget.dart:180:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\energy_details\energy_details_widget.dart:181:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\energy_details\energy_details_widget.dart:183:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\energy_details\energy_details_widget.dart:184:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\energy_details\energy_details_widget.dart:225:13 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\energy_details\energy_details_widget.dart:230:9 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\energy_details\energy_details_widget.dart:233:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\energy_details\energy_details_widget.dart:255:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\energy_details\energy_details_widget.dart:256:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\energy_details\energy_details_widget.dart:304:9 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\energy_details\energy_details_widget.dart:307:9 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\energy_details\energy_details_widget.dart:308:9 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\energy_details\energy_details_widget.dart:315:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\energy_details\energy_details_widget.dart:342:9 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\energy_details\energy_details_widget.dart:345:9 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\energy_details\energy_details_widget.dart:352:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\energy_details\energy_details_widget.dart:408:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\energy_details\energy_details_widget.dart:470:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\energy_details\energy_details_widget.dart:499:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\energy_details\energy_details_widget.dart:501:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\energy_details\energy_details_widget.dart:946:9 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\energy_details\energy_details_widget.dart:957:9 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\energy_details\energy_details_widget.dart:971:28 - avoid_print
+   info - Statements in a for should be enclosed in a block - lib\web_app_template\energy_details\energydetailscurrentcard_widget.dart:105:41 - curly_braces_in_flow_control_structures
+   info - Statements in a for should be enclosed in a block - lib\web_app_template\energy_details\energydetailsenergycard_widget.dart:93:41 - curly_braces_in_flow_control_structures
+   info - Statements in an if should be enclosed in a block - lib\web_app_template\energy_details\energydetailsenergycard_widget.dart:179:13 - curly_braces_in_flow_control_structures
+   info - Statements in a for should be enclosed in a block - lib\web_app_template\energy_details\energydetailspowercard_widget.dart:113:41 - curly_braces_in_flow_control_structures
+   info - Statements in an if should be enclosed in a block - lib\web_app_template\energy_details\energydetailspowercard_widget.dart:201:13 - curly_braces_in_flow_control_structures
+   info - Statements in a for should be enclosed in a block - lib\web_app_template\energy_details\energydetailsvoltagecard_widget.dart:94:41 - curly_braces_in_flow_control_structures
+   info - Parameter 'key' could be a super parameter - lib\web_app_template\energy_details\equipmentcard_widget.dart:15:9 - use_super_parameters
+   info - Don't invoke 'print' in production code - lib\web_app_template\energy_details\equipmentcard_widget.dart:149:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\energy_details\equipmentcard_widget.dart:162:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\energy_details\equipmentcard_widget.dart:179:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\energy_details\influxdb_service.dart:166:9 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\energy_details\influxdb_service.dart:264:5 - avoid_print
+   info - The import of 'package:intl/intl.dart' is unnecessary because all of the used elements are also provided by the import of '/flutter_flow/flutter_flow_util.dart' - lib\web_app_template\energy_details\powerconsumptionenergydetailscard_widget.dart:8:8 - unnecessary_import
+   info - The parameter name 'callback' doesn't match the name 'fn' in the overridden method - lib\web_app_template\energy_details\powerconsumptionenergydetailscard_widget.dart:46:30 - avoid_renaming_method_parameters
+warning - The declaration '_formatNumberWithDecimals' isn't referenced - lib\web_app_template\energy_details\powerconsumptionenergydetailscard_widget.dart:69:10 - unused_element
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\energy_details\powerconsumptionenergydetailscard_widget.dart:193:16 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\energy_details\powerconsumptionenergydetailscard_widget.dart:242:40 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\energy_details\powerconsumptionenergydetailscard_widget.dart:260:38 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\energy_details\powerconsumptionenergydetailscard_widget.dart:261:40 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\energy_details\powerconsumptionenergydetailscard_widget.dart:266:42 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\energy_details\powerconsumptionenergydetailscard_widget.dart:267:45 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\energy_details\powerconsumptionenergydetailscard_widget.dart:269:44 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\energy_details\powerconsumptionenergydetailscard_widget.dart:270:45 - prefer_const_constructors
+warning - The value of the local variable 'labelRotateAngle' isn't used - lib\web_app_template\energy_details\powerconsumptionenergydetailscard_widget.dart:488:14 - unused_local_variable
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\energy_details\powerconsumptionenergydetailscard_widget.dart:538:44 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\energy_details\powerconsumptionenergydetailscard_widget.dart:556:42 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\energy_details\powerconsumptionenergydetailscard_widget.dart:558:41 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\energy_details\powerconsumptionenergydetailscard_widget.dart:563:46 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\energy_details\powerconsumptionenergydetailscard_widget.dart:564:49 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\energy_details\powerconsumptionenergydetailscard_widget.dart:566:48 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\energy_details\powerconsumptionenergydetailscard_widget.dart:567:49 - prefer_const_constructors
+   info - The import of 'package:intl/intl.dart' is unnecessary because all of the used elements are also provided by the import of '/flutter_flow/flutter_flow_util.dart' - lib\web_app_template\energy_details\realtimepowercard_widget.dart:7:8 - unnecessary_import
+warning - The declaration '_kGreen' isn't referenced - lib\web_app_template\energy_details\realtimepowercard_widget.dart:13:7 - unused_element
+   info - The variable name 'peak_energy' isn't a lowerCamelCase identifier - lib\web_app_template\energy_details\realtimepowercard_widget.dart:16:16 - non_constant_identifier_names
+   info - The variable name 'average_energy' isn't a lowerCamelCase identifier - lib\web_app_template\energy_details\realtimepowercard_widget.dart:17:16 - non_constant_identifier_names
+   info - The variable name 'peak_energy' isn't a lowerCamelCase identifier - lib\web_app_template\energy_details\realtimepowercard_widget.dart:24:19 - non_constant_identifier_names
+   info - The variable name 'average_energy' isn't a lowerCamelCase identifier - lib\web_app_template\energy_details\realtimepowercard_widget.dart:25:19 - non_constant_identifier_names
+  error - Too many positional arguments: 0 expected, but 1 found - lib\web_app_template\energy_details\realtimepowercard_widget.dart:154:41 - extra_positional_arguments_could_be_named
+  error - Expected to find ')' - lib\web_app_template\energy_details\realtimepowercard_widget.dart:206:39 - expected_token
+  error - Expected an identifier - lib\web_app_template\energy_details\realtimepowercard_widget.dart:291:33 - missing_identifier
+  error - Expected to find ']' - lib\web_app_template\energy_details\realtimepowercard_widget.dart:291:33 - expected_token
+   info - Don't invoke 'print' in production code - lib\web_app_template\energy_overview\energy_overview_widget.dart:142:9 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\energy_overview\energy_overview_widget.dart:148:38 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\energy_overview\energy_overview_widget.dart:149:38 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\energy_overview\energy_overview_widget.dart:150:38 - avoid_print
+   info - Statements in an if should be enclosed in a block - lib\web_app_template\energy_overview\energy_overview_widget.dart:163:22 - curly_braces_in_flow_control_structures
+   info - Don't invoke 'print' in production code - lib\web_app_template\energy_overview\energy_overview_widget.dart:169:7 - avoid_print
+   info - Statements in an if should be enclosed in a block - lib\web_app_template\energy_overview\energy_overview_widget.dart:204:22 - curly_braces_in_flow_control_structures
+   info - Don't invoke 'print' in production code - lib\web_app_template\energy_overview\energy_overview_widget.dart:210:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\energy_overview\energy_overview_widget.dart:219:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\energy_overview\energy_overview_widget.dart:237:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\energy_overview\energy_overview_widget.dart:268:7 - avoid_print
+   info - The import of 'dart:math' is unnecessary because all of the used elements are also provided by the import of '/flutter_flow/flutter_flow_util.dart' - lib\web_app_template\energy_overview\powerconsumptionenergydetails_widget.dart:1:8 - unnecessary_import
+warning - Unused import: '/flutter_flow/flutter_flow_theme.dart' - lib\web_app_template\energy_overview\powerconsumptionenergydetails_widget.dart:5:8 - unused_import
+warning - Unused import: 'dart:math' - lib\web_app_template\energy_overview\powerdiagram_widget.dart:1:8 - unused_import
+warning - Unused import: 'dart:math' - lib\web_app_template\energy_overview\powerdiagram_widget.dart:2:8 - unused_import
+warning - Unused import: 'dart:ui' - lib\web_app_template\energy_overview\powerdiagram_widget.dart:3:8 - unused_import
+   info - The constant name 'DEBUG_MODE' isn't a lowerCamelCase identifier - lib\web_app_template\energy_overview\powerdiagram_widget.dart:38:21 - constant_identifier_names
+warning - The value of the local variable 'powerDistribution' isn't used - lib\web_app_template\energy_overview\powerdiagram_widget.dart:106:12 - unused_local_variable
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\energy_overview\powerusagecard_widget.dart:116:21 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\energy_overview\powerusagecard_widget.dart:116:35 - prefer_const_constructors
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_alarm_data\view.dart:78:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_alarm_data\view.dart:221:9 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_alarm_data\view.dart:232:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_alarm_data\view.dart:266:9 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_alarm_data\view.dart:273:7 - avoid_print
+   info - The import of 'package:intl/intl.dart' is unnecessary because all of the used elements are also provided by the import of '/flutter_flow/flutter_flow_util.dart' - lib\web_app_template\equipment_details\alarmlistcardproduction_widget.dart:5:8 - unnecessary_import
+warning - The operand can't be 'null', so the condition is always 'true' - lib\web_app_template\equipment_details\alarmlistcardproduction_widget.dart:83:28 - unnecessary_null_comparison
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\alarmlistcardproduction_widget.dart:85:9 - avoid_print
+   info - Parameter 'key' could be a super parameter - lib\web_app_template\equipment_details\downtimeanalysiscard_widget.dart:15:9 - use_super_parameters
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\downtimeanalysiscard_widget.dart:147:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\downtimeanalysiscard_widget.dart:148:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\downtimeanalysiscard_widget.dart:149:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\downtimeanalysiscard_widget.dart:150:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\downtimeanalysiscard_widget.dart:151:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\downtimeanalysiscard_widget.dart:152:7 - avoid_print
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\equipment_details\downtimeanalysiscard_widget.dart:370:25 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\equipment_details\downtimeanalysiscard_widget.dart:401:27 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\equipment_details\downtimeanalysiscard_widget.dart:405:36 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\equipment_details\downtimeanalysiscard_widget.dart:552:33 - prefer_const_constructors
+   info - Unnecessary braces in a string interpolation - lib\web_app_template\equipment_details\downtimeanalysiscard_widget.dart:559:39 - unnecessary_brace_in_string_interps
+   info - Unnecessary braces in a string interpolation - lib\web_app_template\equipment_details\downtimeanalysiscard_widget.dart:669:10 - unnecessary_brace_in_string_interps
+   info - Unnecessary braces in a string interpolation - lib\web_app_template\equipment_details\downtimeanalysiscard_widget.dart:669:54 - unnecessary_brace_in_string_interps
+   info - Unnecessary braces in a string interpolation - lib\web_app_template\equipment_details\downtimeanalysiscard_widget.dart:669:69 - unnecessary_brace_in_string_interps
+warning - Duplicate import - lib\web_app_template\equipment_details\equipment_details_model.dart:5:8 - duplicate_import
+   info - The import of 'dart:convert' is unnecessary because all of the used elements are also provided by the import of '/flutter_flow/flutter_flow_util.dart' - lib\web_app_template\equipment_details\equipment_details_widget.dart:13:8 - unnecessary_import
+warning - Unused import: 'stationkpicard_widget.dart' - lib\web_app_template\equipment_details\equipment_details_widget.dart:19:8 - unused_import
+   info - Invalid use of a private type in a public API - lib\web_app_template\equipment_details\equipment_details_widget.dart:60:3 - library_private_types_in_public_api
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\equipment_details_widget.dart:229:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\equipment_details_widget.dart:232:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\equipment_details_widget.dart:233:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\equipment_details_widget.dart:273:15 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\equipment_details_widget.dart:293:9 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\equipment_details_widget.dart:294:9 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\equipment_details_widget.dart:304:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\equipment_details_widget.dart:305:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\equipment_details_widget.dart:345:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\equipment_details_widget.dart:403:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\equipment_details_widget.dart:405:9 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\equipment_details_widget.dart:406:9 - avoid_print
+warning - The receiver can't be 'null' because of short-circuiting, so the null-aware operator '?.' can't be used - lib\web_app_template\equipment_details\equipment_details_widget.dart:418:68 - invalid_null_aware_operator
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\equipment_details_widget.dart:420:17 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\equipment_details_widget.dart:424:13 - avoid_print
+warning - The receiver can't be null, so the null-aware operator '?[' is unnecessary - lib\web_app_template\equipment_details\equipment_details_widget.dart:424:65 - invalid_null_aware_operator
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\equipment_details_widget.dart:426:13 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\equipment_details_widget.dart:427:13 - avoid_print
+warning - The operand can't be 'null', so the condition is always 'true' - lib\web_app_template\equipment_details\equipment_details_widget.dart:437:31 - unnecessary_null_comparison
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\equipment_details_widget.dart:461:11 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\equipment_details_widget.dart:462:11 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\equipment_details_widget.dart:497:13 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\equipment_details_widget.dart:527:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\equipment_details_widget.dart:556:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\equipment_details_widget.dart:570:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\equipment_details_widget.dart:571:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\equipment_details_widget.dart:581:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\equipment_details_widget.dart:582:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\equipment_details_widget.dart:614:9 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\equipment_details_widget.dart:616:9 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\equipment_details_widget.dart:641:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\equipment_details_widget.dart:689:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\equipment_details_widget.dart:706:9 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\equipment_details_widget.dart:711:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\equipment_details_widget.dart:722:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\equipment_details_widget.dart:755:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\equipment_details_widget.dart:758:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\equipment_details_widget.dart:802:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\equipment_details_widget.dart:824:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\equipment_details_widget.dart:825:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\equipment_details_widget.dart:826:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\equipment_details_widget.dart:864:9 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\equipment_details_widget.dart:865:9 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\equipment_details_widget.dart:866:9 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\equipment_details_widget.dart:879:13 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\equipment_details_widget.dart:883:11 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\equipment_details_widget.dart:886:9 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\equipment_details_widget.dart:904:9 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\equipment_details_widget.dart:905:9 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\equipment_details_widget.dart:906:9 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\equipment_details_widget.dart:907:9 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\equipment_details_widget.dart:909:9 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\equipment_details_widget.dart:924:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\equipment_details_widget.dart:925:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\equipment_details_widget.dart:926:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\equipment_details_widget.dart:927:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\equipment_details_widget.dart:934:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\equipment_details_widget.dart:949:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\equipment_details_widget.dart:963:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\equipment_details_widget.dart:964:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\equipment_details_widget.dart:980:11 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\equipment_details_widget.dart:982:11 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\equipment_details_widget.dart:985:9 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\equipment_details_widget.dart:994:7 - avoid_print
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\equipment_details\equipment_details_widget.dart:1005:40 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\equipment_details\equipment_details_widget.dart:1006:33 - prefer_const_constructors
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\equipment_details_widget.dart:1043:9 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\equipment_details_widget.dart:1048:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\equipment_details_widget.dart:1105:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\equipment_details_widget.dart:1110:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\equipment_details_widget.dart:1120:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\equipment_details_widget.dart:1143:13 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\equipment_details_widget.dart:1146:13 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\equipment_details_widget.dart:1156:9 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\equipment_details_widget.dart:1159:9 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\equipment_details_widget.dart:1163:7 - avoid_print
+warning - The left operand can't be null, so the right operand is never executed - lib\web_app_template\equipment_details\equipment_details_widget.dart:1172:80 - dead_null_aware_expression
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\equipment_details_widget.dart:1185:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\equipment_details_widget.dart:1191:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\equipment_details_widget.dart:1200:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\equipment_details_widget.dart:1205:5 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\equipment_details_widget.dart:1211:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\equipment_details_widget.dart:1217:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\equipment_details_widget.dart:1224:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\equipment_details_widget.dart:1241:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\equipment_details_widget.dart:1242:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\equipment_details_widget.dart:1243:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\equipment_details_widget.dart:1244:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\equipment_details_widget.dart:1254:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\equipment_details_widget.dart:1255:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\equipment_details_widget.dart:1262:9 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\equipment_details_widget.dart:1263:9 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\equipment_details_widget.dart:1266:11 - avoid_print
+   info - Unnecessary braces in a string interpolation - lib\web_app_template\equipment_details\equipment_details_widget.dart:1266:30 - unnecessary_brace_in_string_interps
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\equipment_details_widget.dart:1286:11 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\equipment_details_widget.dart:1287:11 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\equipment_details_widget.dart:1288:11 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\equipment_details_widget.dart:1289:11 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\equipment_details_widget.dart:1290:11 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\equipment_details_widget.dart:1295:9 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\equipment_details_widget.dart:1302:9 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\equipment_details_widget.dart:1312:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\equipment_details_widget.dart:1313:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\equipment_details_widget.dart:1324:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\equipment_details_widget.dart:1330:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\equipment_details_widget.dart:1335:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\equipment_details_widget.dart:1339:5 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\equipment_details_widget.dart:1340:5 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\equipment_details_widget.dart:1341:5 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\equipment_details_widget.dart:1352:5 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\equipment_details_widget.dart:1357:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\equipment_details_widget.dart:1379:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\equipment_details_widget.dart:1380:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\equipment_details_widget.dart:1414:9 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\equipment_details_widget.dart:1415:9 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\equipment_details_widget.dart:1416:9 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\equipment_details_widget.dart:1425:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\equipment_details_widget.dart:1443:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\equipment_details_widget.dart:1508:9 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\equipment_details_widget.dart:1509:9 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\equipment_details_widget.dart:1531:9 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\equipment_details_widget.dart:1532:9 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\equipment_details_widget.dart:1533:9 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\equipment_details_widget.dart:1535:9 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\equipment_details_widget.dart:1542:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\equipment_details_widget.dart:1563:5 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\equipment_details_widget.dart:1569:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\equipment_details_widget.dart:1582:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\equipment_details_widget.dart:1605:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\equipment_details_widget.dart:1606:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\equipment_details_widget.dart:1607:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\equipment_details_widget.dart:1608:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\equipment_details_widget.dart:1618:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\equipment_details_widget.dart:1619:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\equipment_details_widget.dart:1620:7 - avoid_print
+   info - Use interpolation to compose strings and values - lib\web_app_template\equipment_details\equipment_details_widget.dart:1620:62 - prefer_interpolation_to_compose_strings
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\equipment_details_widget.dart:1672:9 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\equipment_details_widget.dart:1673:9 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\equipment_details_widget.dart:1674:9 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\equipment_details_widget.dart:1675:9 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\equipment_details_widget.dart:1676:9 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\equipment_details_widget.dart:1677:9 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\equipment_details_widget.dart:1678:9 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\equipment_details_widget.dart:1681:9 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\equipment_details_widget.dart:1692:9 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\equipment_details_widget.dart:1705:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\equipment_details_widget.dart:1719:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\equipment_details_widget.dart:1732:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\equipment_details_widget.dart:1733:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\equipment_details_widget.dart:1743:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\equipment_details_widget.dart:1744:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\equipment_details_widget.dart:1786:11 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\equipment_details_widget.dart:1787:11 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\equipment_details_widget.dart:1788:11 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\equipment_details_widget.dart:1789:11 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\equipment_details_widget.dart:1790:11 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\equipment_details_widget.dart:1791:11 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\equipment_details_widget.dart:1792:11 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\equipment_details_widget.dart:1795:9 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\equipment_details_widget.dart:1798:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\equipment_details_widget.dart:1799:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\equipment_details_widget.dart:1806:9 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\equipment_details_widget.dart:1823:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\equipment_details_widget.dart:1824:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\equipment_details_widget.dart:1847:13 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\equipment_details_widget.dart:1850:13 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\equipment_details_widget.dart:1859:11 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\equipment_details_widget.dart:1872:9 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\equipment_details_widget.dart:1874:9 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\equipment_details_widget.dart:1877:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\equipment_details_widget.dart:1883:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\equipment_details_widget.dart:1902:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\equipment_details_widget.dart:1903:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\equipment_details_widget.dart:1904:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\equipment_details_widget.dart:1905:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\equipment_details_widget.dart:1909:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\equipment_details_widget.dart:1910:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\equipment_details_widget.dart:1921:9 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\equipment_details_widget.dart:1922:9 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\equipment_details_widget.dart:1923:9 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\equipment_details_widget.dart:1925:9 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\equipment_details_widget.dart:1935:7 - avoid_print
+warning - The left operand can't be null, so the right operand is never executed - lib\web_app_template\equipment_details\equipment_details_widget.dart:2242:143 - dead_null_aware_expression
+   info - Parameter 'key' could be a super parameter - lib\web_app_template\equipment_details\equipmentcard_widget.dart:10:9 - use_super_parameters
+warning - Unused import: '/flutter_flow/flutter_flow_util.dart' - lib\web_app_template\equipment_details\equipmentcardmaindetails_widget.dart:5:8 - unused_import
+warning - Unused import: 'dart:math' - lib\web_app_template\equipment_details\equipmentcardmaindetails_widget.dart:7:8 - unused_import
+   info - An uninitialized field should have an explicit type annotation - lib\web_app_template\equipment_details\equipmentcardmaindetails_widget.dart:27:9 - prefer_typing_uninitialized_variables
+   info - An uninitialized field should have an explicit type annotation - lib\web_app_template\equipment_details\equipmentcardmaindetails_widget.dart:28:9 - prefer_typing_uninitialized_variables
+   info - An uninitialized field should have an explicit type annotation - lib\web_app_template\equipment_details\equipmentcardmaindetails_widget.dart:29:9 - prefer_typing_uninitialized_variables
+   info - An uninitialized field should have an explicit type annotation - lib\web_app_template\equipment_details\equipmentcardmaindetails_widget.dart:30:9 - prefer_typing_uninitialized_variables
+   info - Parameter 'key' could be a super parameter - lib\web_app_template\equipment_details\equipmentcardmaindetails_widget.dart:34:9 - use_super_parameters
+   info - Invalid use of a private type in a public API - lib\web_app_template\equipment_details\equipmentcardmaindetails_widget.dart:61:3 - library_private_types_in_public_api
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\equipmentcardmaindetails_widget.dart:96:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\equipmentcardmaindetails_widget.dart:106:5 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\equipmentcardmaindetails_widget.dart:107:5 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\equipmentcardmaindetails_widget.dart:121:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\equipmentcardmaindetails_widget.dart:122:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\equipmentcardmaindetails_widget.dart:123:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\equipmentcardmaindetails_widget.dart:124:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\equipmentcardmaindetails_widget.dart:125:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\equipmentcardmaindetails_widget.dart:126:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\equipmentcardmaindetails_widget.dart:127:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\equipmentcardmaindetails_widget.dart:128:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\equipmentcardmaindetails_widget.dart:129:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\equipmentcardmaindetails_widget.dart:130:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\equipmentcardmaindetails_widget.dart:131:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\equipmentcardmaindetails_widget.dart:132:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\equipmentcardmaindetails_widget.dart:159:9 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\equipmentcardmaindetails_widget.dart:160:9 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\equipmentcardmaindetails_widget.dart:161:9 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\equipmentcardmaindetails_widget.dart:165:9 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\equipmentcardmaindetails_widget.dart:168:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\equipmentcardmaindetails_widget.dart:333:17 - avoid_print
+warning - The value of the local variable 'todayPlanned' isn't used - lib\web_app_template\equipment_details\equipmentcardmaindetails_widget.dart:360:11 - unused_local_variable
+   info - Use a 'SizedBox' to add whitespace to a layout - lib\web_app_template\equipment_details\equipmentcardmaindetails_widget.dart:454:29 - sized_box_for_whitespace
+warning - The left operand can't be null, so the right operand is never executed - lib\web_app_template\equipment_details\equipmentcardmaindetails_widget.dart:544:45 - dead_null_aware_expression
+   info - Use a 'SizedBox' to add whitespace to a layout - lib\web_app_template\equipment_details\equipmentcardmaindetails_widget.dart:562:34 - sized_box_for_whitespace
+   info - Parameter 'key' could be a super parameter - lib\web_app_template\equipment_details\equipmentdowntimecard_widget.dart:14:9 - use_super_parameters
+   info - Parameter 'key' could be a super parameter - lib\web_app_template\equipment_details\equipmentdowntimecard_widget.dart:157:9 - use_super_parameters
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\equipment_details\equipmentdowntimecard_widget.dart:204:28 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\equipment_details\equipmentdowntimecard_widget.dart:205:29 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\equipment_details\equipmentdowntimecard_widget.dart:207:26 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\equipment_details\equipmentdowntimecard_widget.dart:208:29 - prefer_const_constructors
+   info - Use 'const' for final variables initialized to a constant value - lib\web_app_template\equipment_details\multisegmentcircualpainter_widget.dart:27:5 - prefer_const_declarations
+   info - Use 'const' for final variables initialized to a constant value - lib\web_app_template\equipment_details\multisegmentcircualpainter_widget.dart:38:5 - prefer_const_declarations
+   info - Use 'const' for final variables initialized to a constant value - lib\web_app_template\equipment_details\multisegmentcircualpainter_widget.dart:39:5 - prefer_const_declarations
+   info - Parameter 'key' could be a super parameter - lib\web_app_template\equipment_details\productioncard_widget.dart:17:9 - use_super_parameters
+   info - The constant name 'SHIFT_START_HOUR' isn't a lowerCamelCase identifier - lib\web_app_template\equipment_details\productioncard_widget.dart:40:20 - constant_identifier_names
+   info - The constant name 'SHIFT_END_HOUR' isn't a lowerCamelCase identifier - lib\web_app_template\equipment_details\productioncard_widget.dart:41:20 - constant_identifier_names
+warning - The value of the field 'SHIFT_END_HOUR' isn't used - lib\web_app_template\equipment_details\productioncard_widget.dart:41:20 - unused_field
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\productioncard_widget.dart:118:5 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\productioncard_widget.dart:119:5 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\productioncard_widget.dart:125:5 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\productioncard_widget.dart:126:5 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\productioncard_widget.dart:145:9 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\productioncard_widget.dart:167:9 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\productioncard_widget.dart:172:9 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\productioncard_widget.dart:198:11 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\productioncard_widget.dart:201:11 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\productioncard_widget.dart:206:5 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\productioncard_widget.dart:207:5 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\productioncard_widget.dart:208:5 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\productioncard_widget.dart:209:5 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\productioncard_widget.dart:260:5 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\productioncard_widget.dart:261:5 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_details\productioncard_widget.dart:287:7 - avoid_print
+   info - Use interpolation to compose strings and values - lib\web_app_template\equipment_details\productioncard_widget.dart:507:33 - prefer_interpolation_to_compose_strings
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\equipment_details\productioncard_widget.dart:522:37 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\equipment_details\productioncard_widget.dart:524:46 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\equipment_details\productioncard_widget.dart:532:46 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\equipment_details\productioncard_widget.dart:545:39 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\equipment_details\productioncard_widget.dart:547:48 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\equipment_details\productioncard_widget.dart:555:48 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\equipment_details\productioncard_widget.dart:612:41 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\equipment_details\productioncard_widget.dart:628:41 - prefer_const_constructors
+warning - The value of the field '_currentFilteredData' isn't used - lib\web_app_template\equipment_details\timerangefilter_dialog.dart:40:30 - unused_field
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\equipment_details\workordercard_widget.dart:68:17 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\equipment_details\workordercard_widget.dart:168:15 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\equipment_details\workordercard_widget.dart:171:15 - prefer_const_constructors
+   info - Unnecessary use of string interpolation - lib\web_app_template\equipment_details\workordercard_widget.dart:237:47 - unnecessary_string_interpolations
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\equipment_details\workordercard_widget.dart:261:38 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\equipment_details\workordercard_widget.dart:285:13 - prefer_const_constructors
+   info - Unnecessary use of string interpolation - lib\web_app_template\equipment_details\workordercard_widget.dart:307:47 - unnecessary_string_interpolations
+   info - Unnecessary use of string interpolation - lib\web_app_template\equipment_details\workordercard_widget.dart:328:33 - unnecessary_string_interpolations
+   info - Unnecessary use of string interpolation - lib\web_app_template\equipment_details\workordercard_widget.dart:365:37 - unnecessary_string_interpolations
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\equipment_details\workordercard_widget.dart:403:13 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\equipment_details\workordercard_widget.dart:441:13 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\equipment_details\workordercard_widget.dart:478:23 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\equipment_details\workordercard_widget.dart:513:34 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\equipment_details\workordercard_widget.dart:530:23 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\equipment_details\workordercard_widget.dart:609:23 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\equipment_details\workordercard_widget.dart:674:13 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\equipment_details\workordercard_widget.dart:709:13 - prefer_const_constructors
+   info - The import of 'dart:convert' is unnecessary because all of the used elements are also provided by the import of '/flutter_flow/flutter_flow_util.dart' - lib\web_app_template\equipment_overview\equipment_overview_widget.dart:4:8 - unnecessary_import
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_overview\equipment_overview_widget.dart:133:9 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_overview\equipment_overview_widget.dart:138:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_overview\equipment_overview_widget.dart:152:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_overview\equipment_overview_widget.dart:199:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_overview\equipment_overview_widget.dart:200:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_overview\equipment_overview_widget.dart:202:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_overview\equipment_overview_widget.dart:260:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_overview\equipment_overview_widget.dart:278:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_overview\equipment_overview_widget.dart:304:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_overview\equipment_overview_widget.dart:305:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_overview\equipment_overview_widget.dart:314:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_overview\equipment_overview_widget.dart:315:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_overview\equipment_overview_widget.dart:316:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_overview\equipment_overview_widget.dart:352:11 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_overview\equipment_overview_widget.dart:356:9 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_overview\equipment_overview_widget.dart:395:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_overview\equipment_overview_widget.dart:467:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_overview\equipment_overview_widget.dart:468:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_overview\equipment_overview_widget.dart:475:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_overview\equipment_overview_widget.dart:566:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_overview\equipment_overview_widget.dart:567:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_overview\equipment_overview_widget.dart:577:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_overview\equipment_overview_widget.dart:578:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_overview\equipment_overview_widget.dart:611:9 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_overview\equipment_overview_widget.dart:612:9 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_overview\equipment_overview_widget.dart:614:9 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_overview\equipment_overview_widget.dart:617:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_overview\equipment_overview_widget.dart:629:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_overview\equipment_overview_widget.dart:656:13 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_overview\equipment_overview_widget.dart:658:13 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_overview\equipment_overview_widget.dart:674:9 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_overview\equipment_overview_widget.dart:676:9 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_overview\equipment_overview_widget.dart:679:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_overview\equipment_overview_widget.dart:691:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_overview\equipment_overview_widget.dart:703:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_overview\equipment_overview_widget.dart:704:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_overview\equipment_overview_widget.dart:726:15 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_overview\equipment_overview_widget.dart:729:15 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_overview\equipment_overview_widget.dart:738:13 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_overview\equipment_overview_widget.dart:754:9 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_overview\equipment_overview_widget.dart:756:9 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_overview\equipment_overview_widget.dart:759:7 - avoid_print
+   info - Use a 'SizedBox' to add whitespace to a layout - lib\web_app_template\equipment_overview\equipment_overview_widget.dart:1047:51 - sized_box_for_whitespace
+warning - The left operand can't be null, so the right operand is never executed - lib\web_app_template\equipment_overview\equipmentcardmain_widget.dart:120:74 - dead_null_aware_expression
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_overview\equipmentcardmain_widget.dart:156:15 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_overview\equipmentcardmain_widget.dart:162:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_overview\equipmentcardmain_widget.dart:164:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_overview\equipmentcardmain_widget.dart:186:15 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_overview\equipmentcardmain_widget.dart:192:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_overview\equipmentcardmain_widget.dart:194:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_overview\equipmentcardmain_widget.dart:239:17 - avoid_print
+warning - The value of the local variable 'equipmentId' isn't used - lib\web_app_template\equipment_overview\equipmentcardmain_widget.dart:282:11 - unused_local_variable
+warning - The value of the local variable 'crossAxisCount' isn't used - lib\web_app_template\equipment_overview\equipmentcardmain_widget.dart:296:15 - unused_local_variable
+   info - Use a 'SizedBox' to add whitespace to a layout - lib\web_app_template\equipment_overview\equipmentcardmain_widget.dart:394:44 - sized_box_for_whitespace
+warning - The left operand can't be null, so the right operand is never executed - lib\web_app_template\equipment_overview\equipmentcardmain_widget.dart:404:70 - dead_null_aware_expression
+   info - Use a 'SizedBox' to add whitespace to a layout - lib\web_app_template\equipment_overview\equipmentcardmain_widget.dart:425:44 - sized_box_for_whitespace
+   info - Use a 'SizedBox' to add whitespace to a layout - lib\web_app_template\equipment_overview\equipmentcardmain_widget.dart:456:44 - sized_box_for_whitespace
+   info - Invalid use of a private type in a public API - lib\web_app_template\equipment_settings\add.dart:22:3 - library_private_types_in_public_api
+warning - The value of the field '_imageUrl' isn't used - lib\web_app_template\equipment_settings\add.dart:45:11 - unused_field
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_settings\add.dart:87:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_settings\add.dart:93:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_settings\add.dart:110:9 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_settings\add.dart:127:9 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_settings\add.dart:129:9 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_settings\add.dart:132:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_settings\add.dart:144:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_settings\add.dart:163:7 - avoid_print
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\equipment_settings\add.dart:176:9 - prefer_const_constructors
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_settings\add.dart:182:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_settings\add.dart:186:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_settings\add.dart:190:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_settings\add.dart:196:7 - avoid_print
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\equipment_settings\add.dart:296:24 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\equipment_settings\add.dart:381:32 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\equipment_settings\add.dart:385:38 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\equipment_settings\add.dart:488:33 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\equipment_settings\add.dart:709:12 - prefer_const_constructors
+   info - Use 'const' literals as arguments to constructors of '@immutable' classes - lib\web_app_template\equipment_settings\add.dart:711:17 - prefer_const_literals_to_create_immutables
+   info - The file name 'addFactory.dart' isn't a lower_case_with_underscores identifier - lib\web_app_template\equipment_settings\addFactory.dart:1:1 - file_names
+   info - Invalid use of a private type in a public API - lib\web_app_template\equipment_settings\addFactory.dart:14:3 - library_private_types_in_public_api
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\equipment_settings\addFactory.dart:36:24 - prefer_const_constructors
+   info - The file name 'addProductionArea.dart' isn't a lower_case_with_underscores identifier - lib\web_app_template\equipment_settings\addProductionArea.dart:1:1 - file_names
+   info - Invalid use of a private type in a public API - lib\web_app_template\equipment_settings\addProductionArea.dart:14:3 - library_private_types_in_public_api
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\equipment_settings\addProductionArea.dart:37:24 - prefer_const_constructors
+warning - Unused import: 'dart:io' - lib\web_app_template\equipment_settings\edit.dart:10:8 - unused_import
+   info - Invalid use of a private type in a public API - lib\web_app_template\equipment_settings\edit.dart:47:3 - library_private_types_in_public_api
+warning - The value of the local variable 'uri' isn't used - lib\web_app_template\equipment_settings\edit.dart:129:17 - unused_local_variable
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_settings\edit.dart:136:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_settings\edit.dart:146:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_settings\edit.dart:150:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_settings\edit.dart:153:9 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_settings\edit.dart:169:11 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_settings\edit.dart:173:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_settings\edit.dart:183:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_settings\edit.dart:192:11 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_settings\edit.dart:195:9 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_settings\edit.dart:198:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_settings\edit.dart:239:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_settings\edit.dart:245:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_settings\edit.dart:262:9 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_settings\edit.dart:279:9 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_settings\edit.dart:281:9 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_settings\edit.dart:284:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_settings\edit.dart:296:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_settings\edit.dart:315:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_settings\edit.dart:329:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_settings\edit.dart:333:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_settings\edit.dart:337:7 - avoid_print
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\equipment_settings\edit.dart:446:24 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\equipment_settings\edit.dart:531:32 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\equipment_settings\edit.dart:535:38 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\equipment_settings\edit.dart:640:33 - prefer_const_constructors
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_settings\edit.dart:807:29 - avoid_print
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\equipment_settings\edit.dart:853:12 - prefer_const_constructors
+   info - Use 'const' literals as arguments to constructors of '@immutable' classes - lib\web_app_template\equipment_settings\edit.dart:855:17 - prefer_const_literals_to_create_immutables
+   info - Invalid use of a private type in a public API - lib\web_app_template\equipment_settings\view.dart:18:3 - library_private_types_in_public_api
+warning - The value of the field '_isNameColumnSorted' isn't used - lib\web_app_template\equipment_settings\view.dart:48:8 - unused_field
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_settings\view.dart:84:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_settings\view.dart:119:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_settings\view.dart:161:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_settings\view.dart:208:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\equipment_settings\view.dart:271:7 - avoid_print
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\equipment_settings\view.dart:374:50 - prefer_const_constructors
+   info - The import of 'dart:convert' is unnecessary because all of the used elements are also provided by the import of '/flutter_flow/flutter_flow_util.dart' - lib\web_app_template\kanban_dashboard\kanban_dashboard_widget.dart:1:8 - unnecessary_import
+   info - The import of 'package:smartmachine365/web_app_template/kanban_dashboard/normalizer/response/last_24h_chart_response.dart' is unnecessary because all of the used elements are also provided by the import of 'package:smartmachine365/web_app_template/kanban_dashboard/models/response.dart' - lib\web_app_template\kanban_dashboard\kanban_panel_builder_widget.dart:4:8 - unnecessary_import
+warning - Unused import: 'package:smartmachine365/web_app_template/kanban_dashboard_settings/available_panel_widget.dart' - lib\web_app_template\kanban_dashboard\kanban_panel_builder_widget.dart:10:8 - unused_import
+warning - Unused import: 'package:smartmachine365/web_app_template/kanban_dashboard_settings/frequent_use_templates_panel_widget.dart' - lib\web_app_template\kanban_dashboard\kanban_panel_builder_widget.dart:11:8 - unused_import
+warning - Unused import: 'package:smartmachine365/web_app_template/kanban_dashboard_settings/kanban_settings_panel_widget.dart' - lib\web_app_template\kanban_dashboard\kanban_panel_builder_widget.dart:12:8 - unused_import
+warning - Unused import: 'package:smartmachine365/web_app_template/kanban_dashboard_settings/select_dialog_widget.dart' - lib\web_app_template\kanban_dashboard\kanban_panel_builder_widget.dart:13:8 - unused_import
+warning - Unused import: 'package:smartmachine365/web_app_template/kanban_dashboard_settings/widget_config_dialog.dart' - lib\web_app_template\kanban_dashboard\kanban_panel_builder_widget.dart:14:8 - unused_import
+warning - Duplicate import - lib\web_app_template\kanban_dashboard\kanban_panel_builder_widget.dart:17:8 - duplicate_import
+   info - Constructors for public widgets should have a named 'key' parameter - lib\web_app_template\kanban_dashboard\kanban_panel_widget.dart:4:9 - use_key_in_widget_constructors
+   info - Constructors for public widgets should have a named 'key' parameter - lib\web_app_template\kanban_dashboard\placeholder_widget.dart:12:9 - use_key_in_widget_constructors
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\kanban_dashboard\services\kanban_cell_services.dart:56:16 - prefer_const_constructors
+   info - Don't invoke 'print' in production code - lib\web_app_template\kanban_dashboard\services\kanban_cell_services.dart:218:5 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\kanban_dashboard\services\kanban_cell_services.dart:224:9 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\kanban_dashboard\services\kanban_cell_services.dart:227:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\kanban_dashboard\services\kanban_cell_services.dart:229:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\kanban_dashboard\services\kanban_cell_services.dart:269:9 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\kanban_dashboard\services\kanban_cell_services.dart:278:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\kanban_dashboard\services\kanban_cell_services.dart:280:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\kanban_dashboard\services\kanban_cell_services.dart:310:9 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\kanban_dashboard\services\kanban_cell_services.dart:313:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\kanban_dashboard\services\kanban_cell_services.dart:315:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\kanban_dashboard\services\kanban_cell_services.dart:347:9 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\kanban_dashboard\services\kanban_cell_services.dart:350:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\kanban_dashboard\services\kanban_cell_services.dart:352:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\kanban_dashboard\services\kanban_cell_services.dart:398:9 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\kanban_dashboard\services\kanban_cell_services.dart:401:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\kanban_dashboard\services\kanban_cell_services.dart:403:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\kanban_dashboard\services\kanban_cell_services.dart:464:9 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\kanban_dashboard\services\kanban_cell_services.dart:482:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\kanban_dashboard\services\kanban_cell_services.dart:484:7 - avoid_print
+warning - Unused import: 'package:google_fonts/google_fonts.dart' - lib\web_app_template\kanban_dashboard_settings\counter_button_widget.dart:2:8 - unused_import
+warning - Unused import: '/flutter_flow/flutter_flow_theme.dart' - lib\web_app_template\kanban_dashboard_settings\counter_button_widget.dart:3:8 - unused_import
+warning - Unused import: '/flutter_flow/flutter_flow_util.dart' - lib\web_app_template\kanban_dashboard_settings\counter_button_widget.dart:4:8 - unused_import
+   info - Constructors for public widgets should have a named 'key' parameter - lib\web_app_template\kanban_dashboard_settings\counter_button_widget.dart:11:9 - use_key_in_widget_constructors
+   info - The import of 'dart:convert' is unnecessary because all of the used elements are also provided by the import of '/flutter_flow/flutter_flow_util.dart' - lib\web_app_template\kanban_dashboard_settings\frequent_use_templates_panel_widget.dart:4:8 - unnecessary_import
+   info - Parameter 'key' could be a super parameter - lib\web_app_template\kanban_dashboard_settings\frequent_use_templates_panel_widget.dart:26:9 - use_super_parameters
+   info - The import of 'dart:convert' is unnecessary because all of the used elements are also provided by the import of '/flutter_flow/flutter_flow_util.dart' - lib\web_app_template\kanban_dashboard_settings\kanban_dashboard_settings_widget.dart:1:8 - unnecessary_import
+warning - Unused import: 'package:google_fonts/google_fonts.dart' - lib\web_app_template\kanban_dashboard_settings\kanban_dropdown_widget.dart:2:8 - unused_import
+warning - Unused import: '/flutter_flow/flutter_flow_util.dart' - lib\web_app_template\kanban_dashboard_settings\kanban_dropdown_widget.dart:4:8 - unused_import
+   info - Constructors for public widgets should have a named 'key' parameter - lib\web_app_template\kanban_dashboard_settings\kanban_dropdown_widget.dart:11:9 - use_key_in_widget_constructors
+warning - Unused import: '/flutter_flow/flutter_flow_util.dart' - lib\web_app_template\kanban_dashboard_settings\kanban_form_field_widget.dart:4:8 - unused_import
+   info - Constructors for public widgets should have a named 'key' parameter - lib\web_app_template\kanban_dashboard_settings\kanban_form_field_widget.dart:12:9 - use_key_in_widget_constructors
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\kanban_dashboard_settings\kanban_form_field_widget.dart:30:17 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\kanban_dashboard_settings\kanban_form_field_widget.dart:31:28 - prefer_const_constructors
+   info - Unnecessary braces in a string interpolation - lib\web_app_template\kanban_dashboard_settings\kanban_grid_preview.dart:201:26 - unnecessary_brace_in_string_interps
+   info - Unnecessary braces in a string interpolation - lib\web_app_template\kanban_dashboard_settings\kanban_grid_preview.dart:201:37 - unnecessary_brace_in_string_interps
+warning - Unused import: 'package:google_fonts/google_fonts.dart' - lib\web_app_template\kanban_dashboard_settings\kanban_settings_panel_widget.dart:5:8 - unused_import
+   info - The import of 'dart:convert' is unnecessary because all of the used elements are also provided by the import of '/flutter_flow/flutter_flow_util.dart' - lib\web_app_template\kanban_dashboard_settings\kanban_settings_panel_widget.dart:7:8 - unnecessary_import
+   info - Parameter 'key' could be a super parameter - lib\web_app_template\kanban_dashboard_settings\kanban_settings_panel_widget.dart:53:9 - use_super_parameters
+   info - Use 'const' literals as arguments to constructors of '@immutable' classes - lib\web_app_template\kanban_dashboard_settings\kanban_settings_panel_widget.dart:409:26 - prefer_const_literals_to_create_immutables
+   info - Use 'const' literals as arguments to constructors of '@immutable' classes - lib\web_app_template\kanban_dashboard_settings\kanban_settings_panel_widget.dart:473:55 - prefer_const_literals_to_create_immutables
+   info - Use 'const' literals as arguments to constructors of '@immutable' classes - lib\web_app_template\kanban_dashboard_settings\kanban_settings_panel_widget.dart:486:52 - prefer_const_literals_to_create_immutables
+   info - Use 'const' literals as arguments to constructors of '@immutable' classes - lib\web_app_template\kanban_dashboard_settings\kanban_settings_panel_widget.dart:494:56 - prefer_const_literals_to_create_immutables
+warning - Unused import: 'package:google_fonts/google_fonts.dart' - lib\web_app_template\kanban_dashboard_settings\kanban_text_field_widget.dart:2:8 - unused_import
+warning - Unused import: '/flutter_flow/flutter_flow_util.dart' - lib\web_app_template\kanban_dashboard_settings\kanban_text_field_widget.dart:4:8 - unused_import
+   info - Constructors for public widgets should have a named 'key' parameter - lib\web_app_template\kanban_dashboard_settings\kanban_text_field_widget.dart:10:9 - use_key_in_widget_constructors
+warning - Unused import: 'package:google_fonts/google_fonts.dart' - lib\web_app_template\kanban_dashboard_settings\radio_option_widget.dart:2:8 - unused_import
+warning - Unused import: '/flutter_flow/flutter_flow_util.dart' - lib\web_app_template\kanban_dashboard_settings\radio_option_widget.dart:4:8 - unused_import
+   info - Constructors for public widgets should have a named 'key' parameter - lib\web_app_template\kanban_dashboard_settings\radio_option_widget.dart:12:9 - use_key_in_widget_constructors
+warning - Unused import: 'package:google_fonts/google_fonts.dart' - lib\web_app_template\kanban_dashboard_settings\row_counter_widget.dart:2:8 - unused_import
+warning - Unused import: '/flutter_flow/flutter_flow_util.dart' - lib\web_app_template\kanban_dashboard_settings\row_counter_widget.dart:5:8 - unused_import
+   info - Constructors for public widgets should have a named 'key' parameter - lib\web_app_template\kanban_dashboard_settings\row_counter_widget.dart:14:9 - use_key_in_widget_constructors
+   info - Parameter 'key' could be a super parameter - lib\web_app_template\kanban_dashboard_settings\select_dialog_widget.dart:14:9 - use_super_parameters
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\kanban_dashboard_settings\select_dialog_widget.dart:223:11 - prefer_const_constructors
+   info - Constructors for public widgets should have a named 'key' parameter - lib\web_app_template\kanban_dashboard_settings\template_card_widget.dart:12:9 - use_key_in_widget_constructors
+   info - Parameter 'key' could be a super parameter - lib\web_app_template\kanban_dashboard_settings\widget_config_dialog.dart:160:9 - use_super_parameters
+   info - Parameter 'key' could be a super parameter - lib\web_app_template\kwh_tone\kwh_tone_widget.dart:12:9 - use_super_parameters
+   info - Parameter 'key' could be a super parameter - lib\web_app_template\kwh_tone\widgets\analysis_widget.dart:9:9 - use_super_parameters
+   info - Parameter 'key' could be a super parameter - lib\web_app_template\kwh_tone\widgets\cast_line_header_widget.dart:10:9 - use_super_parameters
+   info - Parameter 'key' could be a super parameter - lib\web_app_template\kwh_tone\widgets\cast_line_stats_widget.dart:10:9 - use_super_parameters
+   info - Parameter 'key' could be a super parameter - lib\web_app_template\kwh_tone\widgets\efficiency_gap_widget.dart:9:9 - use_super_parameters
+   info - Parameter 'key' could be a super parameter - lib\web_app_template\kwh_tone\widgets\efficiency_share_widget.dart:9:9 - use_super_parameters
+warning - The value of the local variable 'recordCount' isn't used - lib\web_app_template\machine_k_p_i\downtime_analysis_chart_widget.dart:30:9 - unused_local_variable
+warning - The left operand can't be null, so the right operand is never executed - lib\web_app_template\machine_k_p_i\downtime_analysis_chart_widget.dart:113:41 - dead_null_aware_expression
+warning - The left operand can't be null, so the right operand is never executed - lib\web_app_template\machine_k_p_i\downtime_analysis_chart_widget.dart:122:47 - dead_null_aware_expression
+warning - The left operand can't be null, so the right operand is never executed - lib\web_app_template\machine_k_p_i\downtime_analysis_chart_widget.dart:152:43 - dead_null_aware_expression
+warning - The left operand can't be null, so the right operand is never executed - lib\web_app_template\machine_k_p_i\downtime_analysis_chart_widget.dart:164:51 - dead_null_aware_expression
+warning - The left operand can't be null, so the right operand is never executed - lib\web_app_template\machine_k_p_i\downtime_analysis_chart_widget.dart:179:51 - dead_null_aware_expression
+   info - Parameter 'key' could be a super parameter - lib\web_app_template\machine_k_p_i\header_widget.dart:13:9 - use_super_parameters
+   info - Parameter 'key' could be a super parameter - lib\web_app_template\machine_k_p_i\machine_chart_in_mins_widget.dart:14:9 - use_super_parameters
+warning - The value of the local variable 'chartWidth' isn't used - lib\web_app_template\machine_k_p_i\machine_chart_in_mins_widget.dart:55:25 - unused_local_variable
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\machine_k_p_i\machine_chart_in_mins_widget.dart:113:17 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\machine_k_p_i\machine_chart_in_mins_widget.dart:196:23 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\machine_k_p_i\machine_chart_in_mins_widget.dart:197:25 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\machine_k_p_i\machine_chart_in_mins_widget.dart:201:22 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\machine_k_p_i\machine_chart_in_mins_widget.dart:201:45 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\machine_k_p_i\machine_chart_in_mins_widget.dart:202:24 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\machine_k_p_i\machine_chart_in_mins_widget.dart:202:47 - prefer_const_constructors
+   info - Parameter 'key' could be a super parameter - lib\web_app_template\machine_k_p_i\machine_chart_in_percent_widget.dart:14:9 - use_super_parameters
+warning - The value of the local variable 'chartWidth' isn't used - lib\web_app_template\machine_k_p_i\machine_chart_in_percent_widget.dart:55:25 - unused_local_variable
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\machine_k_p_i\machine_chart_in_percent_widget.dart:113:17 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\machine_k_p_i\machine_chart_in_percent_widget.dart:194:23 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\machine_k_p_i\machine_chart_in_percent_widget.dart:195:25 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\machine_k_p_i\machine_chart_in_percent_widget.dart:199:22 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\machine_k_p_i\machine_chart_in_percent_widget.dart:199:45 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\machine_k_p_i\machine_chart_in_percent_widget.dart:200:24 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\machine_k_p_i\machine_chart_in_percent_widget.dart:200:47 - prefer_const_constructors
+   info - Parameter 'key' could be a super parameter - lib\web_app_template\machine_k_p_i\machine_chart_in_units_widget.dart:14:9 - use_super_parameters
+warning - The value of the local variable 'chartWidth' isn't used - lib\web_app_template\machine_k_p_i\machine_chart_in_units_widget.dart:55:25 - unused_local_variable
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\machine_k_p_i\machine_chart_in_units_widget.dart:113:17 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\machine_k_p_i\machine_chart_in_units_widget.dart:194:23 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\machine_k_p_i\machine_chart_in_units_widget.dart:195:25 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\machine_k_p_i\machine_chart_in_units_widget.dart:199:22 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\machine_k_p_i\machine_chart_in_units_widget.dart:199:45 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\machine_k_p_i\machine_chart_in_units_widget.dart:200:24 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\machine_k_p_i\machine_chart_in_units_widget.dart:200:47 - prefer_const_constructors
+   info - Don't invoke 'print' in production code - lib\web_app_template\machine_k_p_i\machine_filter_controls_widget.dart:142:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\machine_k_p_i\machine_filter_controls_widget.dart:145:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\machine_k_p_i\machine_filter_controls_widget.dart:185:9 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\machine_k_p_i\machine_filter_controls_widget.dart:195:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\machine_k_p_i\machine_filter_controls_widget.dart:222:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\machine_k_p_i\machine_filter_controls_widget.dart:283:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\machine_k_p_i\machine_filter_controls_widget.dart:284:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\machine_k_p_i\machine_filter_controls_widget.dart:289:7 - avoid_print
+   info - Unnecessary empty statement - lib\web_app_template\machine_k_p_i\machine_k_p_i_widget.dart:72:5 - empty_statements
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\machine_k_p_i\machine_k_p_i_widget.dart:229:28 - prefer_const_constructors
+   info - Don't invoke 'print' in production code - lib\web_app_template\machine_k_p_i\machine_k_p_i_widget.dart:238:7 - avoid_print
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\machine_k_p_i\machine_k_p_i_widget.dart:264:15 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\machine_k_p_i\machine_k_p_i_widget.dart:273:15 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\machine_k_p_i\machine_k_p_i_widget.dart:289:21 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\machine_k_p_i\machine_k_p_i_widget.dart:301:21 - prefer_const_constructors
+   info - Don't invoke 'print' in production code - lib\web_app_template\machine_k_p_i\machine_k_p_i_widget.dart:397:5 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\machine_k_p_i\machine_k_p_i_widget.dart:405:5 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\machine_k_p_i\machine_k_p_i_widget.dart:413:5 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\machine_k_p_i\machine_k_p_i_widget.dart:422:5 - avoid_print
+   info - An uninitialized field should have an explicit type annotation - lib\web_app_template\manage_user_groups\group\add.dart:7:9 - prefer_typing_uninitialized_variables
+   info - Invalid use of a private type in a public API - lib\web_app_template\manage_user_groups\group\add.dart:17:3 - library_private_types_in_public_api
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\manage_user_groups\group\add.dart:31:24 - prefer_const_constructors
+   info - Invalid use of a private type in a public API - lib\web_app_template\manage_user_groups\group\edit.dart:23:3 - library_private_types_in_public_api
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\manage_user_groups\group\edit.dart:53:24 - prefer_const_constructors
+   info - Invalid use of a private type in a public API - lib\web_app_template\manage_user_groups\group\view.dart:15:3 - library_private_types_in_public_api
+   info - Don't invoke 'print' in production code - lib\web_app_template\manage_user_groups\group\view.dart:70:13 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\manage_user_groups\group\view.dart:83:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\manage_user_groups\group\view.dart:128:7 - avoid_print
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\manage_user_groups\group\view.dart:215:50 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\manage_user_groups\group\view.dart:506:50 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\manage_user_groups\group\view.dart:507:54 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\manage_user_groups\group\view.dart:513:50 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\manage_user_groups\group\view.dart:514:54 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\manage_user_groups\group\view.dart:520:52 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\manage_user_groups\group\view.dart:521:56 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\manage_user_groups\group\view.dart:527:52 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\manage_user_groups\group\view.dart:528:56 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\manage_user_groups\group\view.dart:534:52 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\manage_user_groups\group\view.dart:535:56 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\manage_user_groups\group\view.dart:541:52 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\manage_user_groups\group\view.dart:542:56 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\manage_user_groups\group\view.dart:548:50 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\manage_user_groups\group\view.dart:549:54 - prefer_const_constructors
+   info - Invalid use of a private type in a public API - lib\web_app_template\manage_user_groups\user\add.dart:18:3 - library_private_types_in_public_api
+   info - Don't invoke 'print' in production code - lib\web_app_template\manage_user_groups\user\add.dart:94:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\manage_user_groups\user\add.dart:144:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\manage_user_groups\user\add.dart:161:9 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\manage_user_groups\user\add.dart:165:9 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\manage_user_groups\user\add.dart:169:7 - avoid_print
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\manage_user_groups\user\add.dart:177:24 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\manage_user_groups\user\add.dart:233:46 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\manage_user_groups\user\add.dart:327:32 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\manage_user_groups\user\add.dart:331:38 - prefer_const_constructors
+   info - Don't invoke 'print' in production code - lib\web_app_template\manage_user_groups\user\add.dart:367:25 - avoid_print
+   info - Invalid use of a private type in a public API - lib\web_app_template\manage_user_groups\user\edit.dart:39:3 - library_private_types_in_public_api
+   info - Don't invoke 'print' in production code - lib\web_app_template\manage_user_groups\user\edit.dart:120:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\manage_user_groups\user\edit.dart:142:9 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\manage_user_groups\user\edit.dart:150:7 - avoid_print
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\manage_user_groups\user\edit.dart:168:24 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\manage_user_groups\user\edit.dart:216:46 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\manage_user_groups\user\edit.dart:314:32 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\manage_user_groups\user\edit.dart:318:38 - prefer_const_constructors
+   info - Don't invoke 'print' in production code - lib\web_app_template\manage_user_groups\user\edit.dart:545:23 - avoid_print
+   info - Invalid use of a private type in a public API - lib\web_app_template\manage_user_groups\user\view.dart:17:3 - library_private_types_in_public_api
+   info - Don't invoke 'print' in production code - lib\web_app_template\manage_user_groups\user\view.dart:65:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\manage_user_groups\user\view.dart:90:13 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\manage_user_groups\user\view.dart:98:7 - avoid_print
+   info - Unnecessary braces in a string interpolation - lib\web_app_template\manage_user_groups\user\view.dart:112:61 - unnecessary_brace_in_string_interps
+   info - Don't invoke 'print' in production code - lib\web_app_template\manage_user_groups\user\view.dart:114:9 - avoid_print
+   info - Unnecessary braces in a string interpolation - lib\web_app_template\manage_user_groups\user\view.dart:114:63 - unnecessary_brace_in_string_interps
+   info - Don't invoke 'print' in production code - lib\web_app_template\manage_user_groups\user\view.dart:138:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\manage_user_groups\user\view.dart:192:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\manage_user_groups\user\view.dart:214:9 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\manage_user_groups\user\view.dart:217:9 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\manage_user_groups\user\view.dart:220:7 - avoid_print
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\manage_user_groups\user\view.dart:327:50 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\manage_user_groups\user\view.dart:657:52 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\manage_user_groups\user\view.dart:658:56 - prefer_const_constructors
+warning - Unused import: 'billing_config_model.dart' - lib\web_app_template\master_billing_configuration\deploy_button_widget.dart:5:8 - unused_import
+   info - The private field _isLoading could be 'final' - lib\web_app_template\master_billing_configuration\electricity_tariff_settings.dart:30:8 - prefer_final_fields
+   info - The import of 'dart:convert' is unnecessary because all of the used elements are also provided by the import of '/flutter_flow/flutter_flow_util.dart' - lib\web_app_template\master_billing_configuration\master_billing_config_widget.dart:13:8 - unnecessary_import
+   info - Statements in a for should be enclosed in a block - lib\web_app_template\master_billing_configuration\master_billing_config_widget.dart:86:33 - curly_braces_in_flow_control_structures
+warning - The receiver can't be null, so the null-aware operator '?.' is unnecessary - lib\web_app_template\master_facility_setting\cubit\facility_cubit.dart:93:45 - invalid_null_aware_operator
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\master_facility_setting\facility_form_widgets.dart:304:23 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\master_facility_setting\facility_form_widgets.dart:305:25 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\master_facility_setting\facility_form_widgets.dart:369:23 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\master_facility_setting\facility_form_widgets.dart:369:35 - prefer_const_constructors
+warning - The value of the local variable 'theme' isn't used - lib\web_app_template\master_facility_setting\facility_form_widgets.dart:394:11 - unused_local_variable
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\master_facility_setting\facility_form_widgets.dart:524:11 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\master_facility_setting\facility_form_widgets.dart:525:22 - prefer_const_constructors
+warning - The declaration '_kBase' isn't referenced - lib\web_app_template\master_facility_setting\facility_helpers.dart:5:7 - unused_element
+warning - The value of the local variable 't' isn't used - lib\web_app_template\master_facility_setting\facility_helpers.dart:17:9 - unused_local_variable
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\master_facility_setting\facility_helpers.dart:20:7 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\master_facility_setting\facility_helpers.dart:21:18 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\master_facility_setting\facility_helpers.dart:24:16 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\master_facility_setting\facility_helpers.dart:164:27 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\master_facility_setting\facility_helpers.dart:199:16 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\master_facility_setting\facility_helpers.dart:315:5 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\master_facility_setting\facility_helpers.dart:316:16 - prefer_const_constructors
+   info - Statements in an if should be enclosed in a block - lib\web_app_template\master_facility_setting\master_facility_setting_widget.dart:134:11 - curly_braces_in_flow_control_structures
+warning - This class (or a class that this class inherits from) is marked as '@immutable', but one or more of its instance fields aren't final: DailyMaxDemandChart.title - lib\web_app_template\max_demand_monitoring\daily_max_demand_chart_widget.dart:6:7 - must_be_immutable
+   info - Don't invoke 'print' in production code - lib\web_app_template\max_demand_monitoring\daily_max_demand_chart_widget.dart:209:7 - avoid_print
+warning - The value of the local variable 'monthName' isn't used - lib\web_app_template\max_demand_monitoring\daily_max_demand_chart_widget.dart:230:12 - unused_local_variable
+   info - Statements in an if should be enclosed in a block - lib\web_app_template\max_demand_monitoring\equipment_load_correlation_chart_widget.dart:341:21 - curly_braces_in_flow_control_structures
+   info - Statements in an if should be enclosed in a block - lib\web_app_template\max_demand_monitoring\equipment_load_correlation_chart_widget.dart:343:21 - curly_braces_in_flow_control_structures
+   info - The private field _selectedDeviceId could be 'final' - lib\web_app_template\max_demand_monitoring\max_demand_monitoring.dart:35:10 - prefer_final_fields
+warning - The value of the field '_isLoading' isn't used - lib\web_app_template\max_demand_monitoring\max_demand_monitoring.dart:55:8 - unused_field
+   info - Don't invoke 'print' in production code - lib\web_app_template\max_demand_monitoring\max_demand_monitoring.dart:171:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\max_demand_monitoring\max_demand_monitoring.dart:184:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\max_demand_monitoring\max_demand_monitoring.dart:204:7 - avoid_print
+   info - Unnecessary use of 'toList' in a spread - lib\web_app_template\max_demand_monitoring\max_demand_records_table_widget.dart:261:16 - unnecessary_to_list_in_spreads
+warning - This class (or a class that this class inherits from) is marked as '@immutable', but one or more of its instance fields aren't final: PowerLoadDistributionChart.title - lib\web_app_template\max_demand_monitoring\power_load_distribution_chart_widget.dart:6:7 - must_be_immutable
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\max_demand_monitoring\power_load_distribution_chart_widget.dart:120:13 - prefer_const_constructors
+warning - This class (or a class that this class inherits from) is marked as '@immutable', but one or more of its instance fields aren't final: PowerLoadTrendChart.title - lib\web_app_template\max_demand_monitoring\power_load_trend_chart_widget.dart:6:7 - must_be_immutable
+warning - This class (or a class that this class inherits from) is marked as '@immutable', but one or more of its instance fields aren't final: YearOnYearAnalysisChart.title - lib\web_app_template\max_demand_monitoring\yearonyear_analaysis_chart_widget.dart:6:7 - must_be_immutable
+warning - The value of the local variable 'box' isn't used - lib\web_app_template\power_factor_monitoring\culprit_ranking_card_widget.dart:137:33 - unused_local_variable
+warning - The value of the local variable 'box' isn't used - lib\web_app_template\power_factor_monitoring\culprit_ranking_card_widget.dart:143:33 - unused_local_variable
+   info - The import of 'package:smartmachine365/flutter_flow/flutter_flow_model.dart' is unnecessary because all of the used elements are also provided by the import of 'package:smartmachine365/flutter_flow/flutter_flow_util.dart' - lib\web_app_template\power_factor_monitoring\power_factor_monitoring_widget.dart:3:8 - unnecessary_import
+warning - Unused import: 'package:smartmachine365/web_app_template/power_factor_monitoring/culprit_ranking_card_widget.dart' - lib\web_app_template\power_factor_monitoring\power_factor_monitoring_widget.dart:9:8 - unused_import
+   info - Don't invoke 'print' in production code - lib\web_app_template\product_settings\view.dart:60:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\product_settings\view.dart:280:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\product_settings\view.dart:304:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\product_settings\view.dart:337:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\production_calendar\view.dart:78:7 - avoid_print
+warning - The value of the local variable 'recordCount' isn't used - lib\web_app_template\production_line_k_p_i\downtime_analysis_chart_widget.dart:30:9 - unused_local_variable
+warning - The left operand can't be null, so the right operand is never executed - lib\web_app_template\production_line_k_p_i\downtime_analysis_chart_widget.dart:113:41 - dead_null_aware_expression
+warning - The left operand can't be null, so the right operand is never executed - lib\web_app_template\production_line_k_p_i\downtime_analysis_chart_widget.dart:122:47 - dead_null_aware_expression
+warning - The left operand can't be null, so the right operand is never executed - lib\web_app_template\production_line_k_p_i\downtime_analysis_chart_widget.dart:152:43 - dead_null_aware_expression
+warning - The left operand can't be null, so the right operand is never executed - lib\web_app_template\production_line_k_p_i\downtime_analysis_chart_widget.dart:164:51 - dead_null_aware_expression
+warning - The left operand can't be null, so the right operand is never executed - lib\web_app_template\production_line_k_p_i\downtime_analysis_chart_widget.dart:179:51 - dead_null_aware_expression
+   info - Don't invoke 'print' in production code - lib\web_app_template\production_line_k_p_i\filter_controls_widget.dart:146:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\production_line_k_p_i\filter_controls_widget.dart:149:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\production_line_k_p_i\filter_controls_widget.dart:195:9 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\production_line_k_p_i\filter_controls_widget.dart:205:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\production_line_k_p_i\filter_controls_widget.dart:233:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\production_line_k_p_i\filter_controls_widget.dart:300:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\production_line_k_p_i\filter_controls_widget.dart:301:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\production_line_k_p_i\filter_controls_widget.dart:306:7 - avoid_print
+   info - Parameter 'key' could be a super parameter - lib\web_app_template\production_line_k_p_i\header_widget.dart:13:9 - use_super_parameters
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\production_line_k_p_i\machine_availability_comparison_widget.dart:218:34 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\production_line_k_p_i\machine_availability_comparison_widget.dart:218:57 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\production_line_k_p_i\machine_availability_comparison_widget.dart:219:36 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\production_line_k_p_i\machine_availability_comparison_widget.dart:219:59 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\production_line_k_p_i\machine_oee_comparison_widget.dart:218:34 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\production_line_k_p_i\machine_oee_comparison_widget.dart:218:57 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\production_line_k_p_i\machine_oee_comparison_widget.dart:219:36 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\production_line_k_p_i\machine_oee_comparison_widget.dart:219:59 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\production_line_k_p_i\machine_output_comparison_widget.dart:234:34 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\production_line_k_p_i\machine_output_comparison_widget.dart:234:57 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\production_line_k_p_i\machine_output_comparison_widget.dart:235:36 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\production_line_k_p_i\machine_output_comparison_widget.dart:235:59 - prefer_const_constructors
+warning - Unused import: 'package:fl_chart/fl_chart.dart' - lib\web_app_template\production_line_k_p_i\machine_performance_ranking_widget.dart:3:8 - unused_import
+   info - Use a 'SizedBox' to add whitespace to a layout - lib\web_app_template\production_line_k_p_i\machine_performance_ranking_widget.dart:320:29 - sized_box_for_whitespace
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\production_line_k_p_i\machine_quality_comparison_widget.dart:218:34 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\production_line_k_p_i\machine_quality_comparison_widget.dart:218:57 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\production_line_k_p_i\machine_quality_comparison_widget.dart:219:36 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\production_line_k_p_i\machine_quality_comparison_widget.dart:219:59 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\production_line_k_p_i\oee_chart_widget.dart:78:14 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\production_line_k_p_i\oee_chart_widget.dart:78:29 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\production_line_k_p_i\oee_chart_widget.dart:78:44 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\production_line_k_p_i\oee_chart_widget.dart:78:59 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\production_line_k_p_i\oee_chart_widget.dart:79:14 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\production_line_k_p_i\oee_chart_widget.dart:79:29 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\production_line_k_p_i\oee_chart_widget.dart:79:44 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\production_line_k_p_i\oee_chart_widget.dart:79:61 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\production_line_k_p_i\oee_chart_widget.dart:135:16 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\production_line_k_p_i\oee_chart_widget.dart:135:31 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\production_line_k_p_i\oee_chart_widget.dart:135:46 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\production_line_k_p_i\oee_chart_widget.dart:135:61 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\production_line_k_p_i\oee_chart_widget.dart:136:16 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\production_line_k_p_i\oee_chart_widget.dart:136:31 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\production_line_k_p_i\oee_chart_widget.dart:136:46 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\production_line_k_p_i\oee_chart_widget.dart:136:63 - prefer_const_constructors
+warning - The left operand can't be null, so the right operand is never executed - lib\web_app_template\production_line_k_p_i\oee_chart_widget.dart:185:41 - dead_null_aware_expression
+warning - The left operand can't be null, so the right operand is never executed - lib\web_app_template\production_line_k_p_i\oee_chart_widget.dart:194:47 - dead_null_aware_expression
+warning - The left operand can't be null, so the right operand is never executed - lib\web_app_template\production_line_k_p_i\oee_chart_widget.dart:205:43 - dead_null_aware_expression
+warning - The left operand can't be null, so the right operand is never executed - lib\web_app_template\production_line_k_p_i\oee_chart_widget.dart:217:51 - dead_null_aware_expression
+warning - The left operand can't be null, so the right operand is never executed - lib\web_app_template\production_line_k_p_i\oee_chart_widget.dart:232:51 - dead_null_aware_expression
+warning - The left operand can't be null, so the right operand is never executed - lib\web_app_template\production_line_k_p_i\oee_chart_widget.dart:265:56 - dead_null_aware_expression
+warning - The left operand can't be null, so the right operand is never executed - lib\web_app_template\production_line_k_p_i\oee_chart_widget.dart:271:56 - dead_null_aware_expression
+warning - The left operand can't be null, so the right operand is never executed - lib\web_app_template\production_line_k_p_i\oee_chart_widget.dart:289:63 - dead_null_aware_expression
+warning - The left operand can't be null, so the right operand is never executed - lib\web_app_template\production_line_k_p_i\oee_chart_widget.dart:330:67 - dead_null_aware_expression
+warning - The left operand can't be null, so the right operand is never executed - lib\web_app_template\production_line_k_p_i\output_comparison_chart_widget.dart:182:41 - dead_null_aware_expression
+warning - The left operand can't be null, so the right operand is never executed - lib\web_app_template\production_line_k_p_i\output_comparison_chart_widget.dart:191:47 - dead_null_aware_expression
+warning - The left operand can't be null, so the right operand is never executed - lib\web_app_template\production_line_k_p_i\output_comparison_chart_widget.dart:202:43 - dead_null_aware_expression
+warning - The left operand can't be null, so the right operand is never executed - lib\web_app_template\production_line_k_p_i\output_comparison_chart_widget.dart:214:51 - dead_null_aware_expression
+warning - The left operand can't be null, so the right operand is never executed - lib\web_app_template\production_line_k_p_i\output_comparison_chart_widget.dart:229:51 - dead_null_aware_expression
+warning - The left operand can't be null, so the right operand is never executed - lib\web_app_template\production_line_k_p_i\output_comparison_chart_widget.dart:269:63 - dead_null_aware_expression
+warning - The left operand can't be null, so the right operand is never executed - lib\web_app_template\production_line_k_p_i\output_comparison_chart_widget.dart:312:67 - dead_null_aware_expression
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\production_line_k_p_i\production_line_k_p_i_widget.dart:228:28 - prefer_const_constructors
+   info - Don't invoke 'print' in production code - lib\web_app_template\production_line_k_p_i\production_line_k_p_i_widget.dart:237:7 - avoid_print
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\production_line_k_p_i\production_line_k_p_i_widget.dart:263:15 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\production_line_k_p_i\production_line_k_p_i_widget.dart:272:15 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\production_line_k_p_i\production_line_k_p_i_widget.dart:288:21 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\production_line_k_p_i\production_line_k_p_i_widget.dart:300:21 - prefer_const_constructors
+   info - Don't invoke 'print' in production code - lib\web_app_template\production_line_k_p_i\production_line_k_p_i_widget.dart:396:5 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\production_line_k_p_i\production_line_k_p_i_widget.dart:404:5 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\production_line_k_p_i\production_line_k_p_i_widget.dart:412:5 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\production_line_k_p_i\production_line_k_p_i_widget.dart:421:5 - avoid_print
+   info - Use a 'SizedBox' to add whitespace to a layout - lib\web_app_template\production_line_k_p_i\production_line_k_p_i_widget.dart:655:33 - sized_box_for_whitespace
+warning - Unused import: 'package:dropdown_search/dropdown_search.dart' - lib\web_app_template\production_task_work_station\check_in_out.dart:1:8 - unused_import
+warning - Unused import: 'package:cloud_firestore/cloud_firestore.dart' - lib\web_app_template\production_task_work_station\check_in_out.dart:4:8 - unused_import
+   info - Invalid use of a private type in a public API - lib\web_app_template\production_task_work_station\check_in_out.dart:33:3 - library_private_types_in_public_api
+warning - The value of the field '_errorMessage' isn't used - lib\web_app_template\production_task_work_station\check_in_out.dart:53:11 - unused_field
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\production_task_work_station\check_in_out.dart:87:12 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\production_task_work_station\check_in_out.dart:96:20 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\production_task_work_station\check_in_out.dart:145:24 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\production_task_work_station\check_in_out.dart:194:20 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\production_task_work_station\check_in_out.dart:202:20 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\production_task_work_station\check_in_out.dart:216:24 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\production_task_work_station\check_in_out.dart:235:13 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\production_task_work_station\check_in_out.dart:246:20 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\production_task_work_station\check_in_out.dart:253:19 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\production_task_work_station\check_in_out.dart:253:37 - prefer_const_constructors
+   info - Don't invoke 'print' in production code - lib\web_app_template\production_task_work_station\check_in_out.dart:260:15 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\production_task_work_station\check_in_out.dart:261:15 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\production_task_work_station\check_in_out.dart:262:15 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\production_task_work_station\check_in_out.dart:263:15 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\production_task_work_station\check_in_out.dart:264:15 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\production_task_work_station\check_in_out.dart:265:15 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\production_task_work_station\check_in_out.dart:266:15 - avoid_print
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\production_task_work_station\check_in_out.dart:269:20 - prefer_const_constructors
+warning - Unused import: 'package:dropdown_search/dropdown_search.dart' - lib\web_app_template\production_task_work_station\edit.dart:1:8 - unused_import
+warning - Unused import: 'package:cloud_firestore/cloud_firestore.dart' - lib\web_app_template\production_task_work_station\edit.dart:4:8 - unused_import
+   info - Invalid use of a private type in a public API - lib\web_app_template\production_task_work_station\edit.dart:33:3 - library_private_types_in_public_api
+warning - The value of the field '_errorMessage' isn't used - lib\web_app_template\production_task_work_station\edit.dart:53:11 - unused_field
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\production_task_work_station\edit.dart:87:12 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\production_task_work_station\edit.dart:96:20 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\production_task_work_station\edit.dart:145:24 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\production_task_work_station\edit.dart:195:20 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\production_task_work_station\edit.dart:203:20 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\production_task_work_station\edit.dart:217:24 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\production_task_work_station\edit.dart:236:13 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\production_task_work_station\edit.dart:247:20 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\production_task_work_station\edit.dart:254:19 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\production_task_work_station\edit.dart:254:37 - prefer_const_constructors
+   info - Don't invoke 'print' in production code - lib\web_app_template\production_task_work_station\edit.dart:261:15 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\production_task_work_station\edit.dart:262:15 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\production_task_work_station\edit.dart:263:15 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\production_task_work_station\edit.dart:264:15 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\production_task_work_station\edit.dart:265:15 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\production_task_work_station\edit.dart:266:15 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\production_task_work_station\edit.dart:267:15 - avoid_print
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\production_task_work_station\edit.dart:270:20 - prefer_const_constructors
+warning - Unused import: 'package:percent_indicator/percent_indicator.dart' - lib\web_app_template\production_task_work_station\production_task_card_widget.dart:7:8 - unused_import
+   info - The variable name 'work_id' isn't a lowerCamelCase identifier - lib\web_app_template\production_task_work_station\production_task_card_widget.dart:35:10 - non_constant_identifier_names
+   info - Don't invoke 'print' in production code - lib\web_app_template\production_task_work_station\production_task_card_widget.dart:57:5 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\production_task_work_station\production_task_card_widget.dart:59:5 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\production_task_work_station\production_task_card_widget.dart:73:3 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\production_task_work_station\production_task_card_widget.dart:113:5 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\production_task_work_station\production_task_card_widget.dart:114:5 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\production_task_work_station\production_task_card_widget.dart:115:5 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\production_task_work_station\production_task_card_widget.dart:116:5 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\production_task_work_station\production_task_card_widget.dart:117:5 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\production_task_work_station\production_task_card_widget.dart:118:5 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\production_task_work_station\production_task_card_widget.dart:119:5 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\production_task_work_station\production_task_card_widget.dart:120:5 - avoid_print
+warning - The declaration '_getString' isn't referenced - lib\web_app_template\production_task_work_station\production_task_card_widget.dart:144:12 - unused_element
+   info - Don't invoke 'print' in production code - lib\web_app_template\production_task_work_station\production_task_card_widget.dart:145:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\production_task_work_station\production_task_card_widget.dart:164:5 - avoid_print
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\production_task_work_station\production_task_card_widget.dart:181:12 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\production_task_work_station\production_task_card_widget.dart:190:20 - prefer_const_constructors
+   info - Unnecessary use of string interpolation - lib\web_app_template\production_task_work_station\production_task_card_widget.dart:289:27 - unnecessary_string_interpolations
+   info - Unnecessary 'const' keyword - lib\web_app_template\production_task_work_station\production_task_card_widget.dart:300:26 - unnecessary_const
+   info - Don't invoke 'print' in production code - lib\web_app_template\production_task_work_station\production_task_card_widget.dart:417:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\production_task_work_station\production_task_card_widget.dart:420:3 - avoid_print
+   info - The variable name 'work_id' isn't a lowerCamelCase identifier - lib\web_app_template\production_task_work_station\production_task_card_widget.dart:421:9 - non_constant_identifier_names
+   info - Don't invoke 'print' in production code - lib\web_app_template\production_task_work_station\production_task_card_widget.dart:422:5 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\production_task_work_station\production_task_card_widget.dart:426:3 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\production_task_work_station\production_task_card_widget.dart:429:3 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\production_task_work_station\production_task_card_widget.dart:432:3 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\production_task_work_station\production_task_card_widget.dart:434:3 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\production_task_work_station\production_task_card_widget.dart:436:3 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\production_task_work_station\production_task_card_widget.dart:438:3 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\production_task_work_station\production_task_card_widget.dart:440:3 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\production_task_work_station\production_task_card_widget.dart:443:3 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\production_task_work_station\production_task_card_widget.dart:451:5 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\production_task_work_station\production_task_card_widget.dart:452:5 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\production_task_work_station\production_task_card_widget.dart:454:3 - avoid_print
+warning - The value of the local variable 'statusColor' isn't used - lib\web_app_template\production_task_work_station\production_task_card_widget.dart:456:9 - unused_local_variable
+warning - The left operand can't be null, so the right operand is never executed - lib\web_app_template\production_task_work_station\production_task_card_widget.dart:460:91 - dead_null_aware_expression
+warning - The left operand can't be null, so the right operand is never executed - lib\web_app_template\production_task_work_station\production_task_card_widget.dart:461:87 - dead_null_aware_expression
+warning - The left operand can't be null, so the right operand is never executed - lib\web_app_template\production_task_work_station\production_task_card_widget.dart:462:90 - dead_null_aware_expression
+warning - The left operand can't be null, so the right operand is never executed - lib\web_app_template\production_task_work_station\production_task_card_widget.dart:463:91 - dead_null_aware_expression
+warning - The value of the local variable 'cardWidth' isn't used - lib\web_app_template\production_task_work_station\production_task_card_widget.dart:466:10 - unused_local_variable
+warning - The value of the local variable 'fontSize' isn't used - lib\web_app_template\production_task_work_station\production_task_card_widget.dart:467:10 - unused_local_variable
+   info - An uninitialized variable should have an explicit type annotation - lib\web_app_template\production_task_work_station\production_task_card_widget.dart:484:21 - prefer_typing_uninitialized_variables
+warning - The value of the local variable 'productionTaskTicketData' isn't used - lib\web_app_template\production_task_work_station\production_task_card_widget.dart:484:21 - unused_local_variable
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\production_task_work_station\production_task_card_widget.dart:570:25 - prefer_const_constructors
+warning - Unused import: 'package:dropdown_search/dropdown_search.dart' - lib\web_app_template\production_task_work_station\remark.dart:3:8 - unused_import
+warning - Unused import: 'package:cloud_firestore/cloud_firestore.dart' - lib\web_app_template\production_task_work_station\remark.dart:6:8 - unused_import
+   info - Invalid use of a private type in a public API - lib\web_app_template\production_task_work_station\remark.dart:36:3 - library_private_types_in_public_api
+warning - The value of the field '_errorMessage' isn't used - lib\web_app_template\production_task_work_station\remark.dart:55:11 - unused_field
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\production_task_work_station\remark.dart:91:12 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\production_task_work_station\remark.dart:100:20 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\production_task_work_station\remark.dart:150:24 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\production_task_work_station\remark.dart:351:20 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\production_task_work_station\remark.dart:359:20 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\production_task_work_station\remark.dart:373:24 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\production_task_work_station\remark.dart:392:13 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\production_task_work_station\remark.dart:403:20 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\production_task_work_station\remark.dart:410:19 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\production_task_work_station\remark.dart:410:37 - prefer_const_constructors
+   info - Don't invoke 'print' in production code - lib\web_app_template\production_task_work_station\remark.dart:417:15 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\production_task_work_station\remark.dart:418:15 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\production_task_work_station\remark.dart:419:15 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\production_task_work_station\remark.dart:420:15 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\production_task_work_station\remark.dart:421:15 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\production_task_work_station\remark.dart:422:15 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\production_task_work_station\remark.dart:423:15 - avoid_print
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\production_task_work_station\remark.dart:426:20 - prefer_const_constructors
+warning - Unused import: 'package:smartmachine365/web_app_template/work_order_overview/firestore_service.dart' - lib\web_app_template\production_task_work_station\view.dart:8:8 - unused_import
+warning - Unused import: 'package:smartmachine365/web_app_template/work_order_overview/widgets/widgets.dart' - lib\web_app_template\production_task_work_station\view.dart:9:8 - unused_import
+warning - Unused import: '/flutter_flow/flutter_flow_theme.dart' - lib\web_app_template\production_task_work_station\view.dart:11:8 - unused_import
+   info - Invalid use of a private type in a public API - lib\web_app_template\production_task_work_station\view.dart:57:3 - library_private_types_in_public_api
+   info - The private field _isLoading could be 'final' - lib\web_app_template\production_task_work_station\view.dart:94:8 - prefer_final_fields
+warning - The value of the field '_childKeys' isn't used - lib\web_app_template\production_task_work_station\view.dart:111:55 - unused_field
+   info - The private field _showProgressIndicator could be 'final' - lib\web_app_template\production_task_work_station\view.dart:112:8 - prefer_final_fields
+warning - The value of the field '_showProgressIndicator' isn't used - lib\web_app_template\production_task_work_station\view.dart:112:8 - unused_field
+   info - Don't invoke 'print' in production code - lib\web_app_template\production_task_work_station\view.dart:121:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\production_task_work_station\view.dart:130:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\production_task_work_station\view.dart:131:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\production_task_work_station\view.dart:132:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\production_task_work_station\view.dart:133:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\production_task_work_station\view.dart:161:11 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\production_task_work_station\view.dart:165:9 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\production_task_work_station\view.dart:207:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\production_task_work_station\view.dart:253:3 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\production_task_work_station\view.dart:268:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\production_task_work_station\view.dart:274:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\production_task_work_station\view.dart:277:5 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\production_task_work_station\view.dart:283:3 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\production_task_work_station\view.dart:294:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\production_task_work_station\view.dart:297:5 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\production_task_work_station\view.dart:341:3 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\production_task_work_station\view.dart:352:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\production_task_work_station\view.dart:355:5 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\production_task_work_station\view.dart:385:3 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\production_task_work_station\view.dart:396:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\production_task_work_station\view.dart:399:5 - avoid_print
+   info - Unnecessary use of string interpolation - lib\web_app_template\production_task_work_station\view.dart:479:27 - unnecessary_string_interpolations
+   info - Unnecessary 'const' keyword - lib\web_app_template\production_task_work_station\view.dart:490:26 - unnecessary_const
+   info - Don't invoke 'print' in production code - lib\web_app_template\production_task_work_station\view.dart:530:15 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\production_task_work_station\view.dart:535:15 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\production_task_work_station\view.dart:542:15 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\production_task_work_station\view.dart:543:15 - avoid_print
+   info - Unnecessary use of string interpolation - lib\web_app_template\production_task_work_station\view.dart:580:35 - unnecessary_string_interpolations
+   info - Unnecessary 'const' keyword - lib\web_app_template\production_task_work_station\view.dart:591:34 - unnecessary_const
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\production_task_work_station\view.dart:594:39 - prefer_const_constructors
+   info - The import of 'dart:convert' is unnecessary because all of the used elements are also provided by the import of '/flutter_flow/flutter_flow_util.dart' - lib\web_app_template\tariff_category_setup\widgets\tariff_category_widget.dart:1:8 - unnecessary_import
+warning - The '!' will have no effect because the receiver can't be null - lib\web_app_template\tariff_category_setup\widgets\tariff_category_widget.dart:923:63 - unnecessary_non_null_assertion
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\tariff_category_setup\widgets\tariff_category_widget.dart:953:13 - prefer_const_constructors
+   info - Use 'const' literals as arguments to constructors of '@immutable' classes - lib\web_app_template\tariff_category_setup\widgets\tariff_category_widget.dart:954:28 - prefer_const_literals_to_create_immutables
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\tariff_category_setup\widgets\tariff_category_widget.dart:955:17 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\web_app_template\tariff_category_setup\widgets\tariff_category_widget.dart:956:17 - prefer_const_constructors
+   info - Invalid use of a private type in a public API - lib\web_app_template\work_order_overview\view.dart:19:3 - library_private_types_in_public_api
+   info - Don't invoke 'print' in production code - lib\web_app_template\work_order_overview\view.dart:60:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\web_app_template\work_order_report\view.dart:55:7 - avoid_print
+
+1149 issues found. (ran in 4.5s)

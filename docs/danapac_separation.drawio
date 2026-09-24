@@ -1,0 +1,137 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Danapac Separation - Full Explanation" id="danapac-full-1">
+    <mxGraphModel dx="1300" dy="1300" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1300" pageHeight="1900" math="0" shadow="0" background="#1e1e1e">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <!-- ===================== TOP: CURRENT ===================== -->
+        <mxCell id="cur_label" value="CURRENT" style="text;html=1;fontSize=16;fontStyle=1;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="20" y="20" width="200" height="30" as="geometry" />
+        </mxCell>
+
+        <mxCell id="cur_danapac" value="Danapac" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#000000;strokeColor=#ffffff;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="320" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cur_demo" value="Demo" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#000000;strokeColor=#ffffff;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="500" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cur_thonguan" value="Thonguan" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#000000;strokeColor=#ffffff;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="670" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+
+        <mxCell id="cur_energy" value="Energy Monitoring" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#000000;strokeColor=#ffffff;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="200" y="170" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="cur_equipment" value="Equipment Monitoring" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#000000;strokeColor=#ffffff;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="200" y="290" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="cur_setting" value="Setting Module" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#000000;strokeColor=#ffffff;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="200" y="410" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="cur_influx" value="Influx" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#000000;strokeColor=#ffffff;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="400" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+
+        <mxCell id="cur_danapac_db" value="Danapac" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#000000;strokeColor=#ffffff;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="70" y="200" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cur_intech_db" value="Intech" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#000000;strokeColor=#ffffff;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="70" y="320" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cur_firestore_db" value="Firestore(Intech SF365)" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#000000;strokeColor=#ffffff;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="40" y="440" width="110" height="70" as="geometry" />
+        </mxCell>
+
+        <mxCell id="cl1" style="edgeStyle=none;html=1;endArrow=none;strokeColor=#ffffff;" edge="1" parent="1" source="cur_danapac_db" target="cur_energy"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="cl2" style="edgeStyle=none;html=1;endArrow=none;strokeColor=#ffffff;" edge="1" parent="1" source="cur_intech_db" target="cur_equipment"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="cl3" style="edgeStyle=none;html=1;endArrow=none;strokeColor=#ffffff;" edge="1" parent="1" source="cur_firestore_db" target="cur_setting"><mxGeometry relative="1" as="geometry" /></mxCell>
+
+        <mxCell id="cc1" style="edgeStyle=none;html=1;endArrow=none;strokeColor=#ffffff;" edge="1" parent="1" source="cur_danapac" target="cur_influx"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="cc2" style="edgeStyle=none;html=1;endArrow=none;strokeColor=#ffffff;" edge="1" parent="1" source="cur_danapac" target="cur_equipment"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="cc3" style="edgeStyle=none;html=1;endArrow=none;strokeColor=#ffffff;" edge="1" parent="1" source="cur_demo" target="cur_energy"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="cc4" style="edgeStyle=none;html=1;endArrow=none;strokeColor=#ffffff;" edge="1" parent="1" source="cur_demo" target="cur_influx"><mxGeometry relative="1" as="geometry" /></mxCell>
+
+        <mxCell id="note_cur_1" value="Danapac and Demo cross paths here:&#10;both end up touching Influx and Equipment Monitoring together." style="text;html=1;fontSize=11;fontColor=#ffcc66;align=left;" vertex="1" parent="1">
+          <mxGeometry x="540" y="170" width="300" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="note_cur_2" value="Thonguan stands alone — it already has its own setup,&#10;so it's not affected when Danapac or Demo changes." style="text;html=1;fontSize=11;fontColor=#99cc99;align=left;" vertex="1" parent="1">
+          <mxGeometry x="660" y="20" width="320" height="40" as="geometry" />
+        </mxCell>
+
+        <mxCell id="cur_explain" value="WHY THIS HAPPENS&#10;Danapac's database connection is fixed in the code as the &quot;default&quot; — it always points to Danapac no matter who is using the app.&#10;Thonguan's database connection, on the other hand, is selected automatically based on who is logged in — it was set up properly from the start.&#10;Because Danapac was never set up that way, it ends up sharing the same Energy Monitoring/Influx/Equipment Monitoring logic as Demo,&#10;and any change made for one can unexpectedly affect the other." style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#ff9999;fontColor=#ff9999;align=left;spacingLeft=10;spacingTop=6;" vertex="1" parent="1">
+          <mxGeometry x="40" y="540" width="900" height="110" as="geometry" />
+        </mxCell>
+
+        <!-- ===================== MIDDLE: PROPOSED ===================== -->
+        <mxCell id="new_label" value="PROPOSED" style="text;html=1;fontSize=16;fontStyle=1;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="20" y="690" width="200" height="30" as="geometry" />
+        </mxCell>
+
+        <mxCell id="new_danapac" value="Danapac" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#000000;strokeColor=#ffffff;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="320" y="730" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="new_demo" value="Demo" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#000000;strokeColor=#ffffff;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="500" y="730" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="new_thonguan" value="Thonguan" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#000000;strokeColor=#ffffff;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="670" y="730" width="120" height="60" as="geometry" />
+        </mxCell>
+
+        <mxCell id="new_influx_danapac" value="Influx - Danapac&#10;(its own copy)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#000000;strokeColor=#ffffff;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="200" y="850" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="new_equipment_danapac" value="Equipment Monitoring - Danapac&#10;(its own copy)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#000000;strokeColor=#ffffff;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="200" y="970" width="140" height="50" as="geometry" />
+        </mxCell>
+
+        <mxCell id="new_energy" value="Energy Monitoring" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#000000;strokeColor=#ffffff;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="440" y="850" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="new_influx_shared" value="Influx&#10;(Demo / Thonguan)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#000000;strokeColor=#ffffff;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="440" y="970" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="new_equipment_shared" value="Equipment Monitoring&#10;(Demo / Thonguan)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#000000;strokeColor=#ffffff;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="620" y="850" width="140" height="50" as="geometry" />
+        </mxCell>
+
+        <mxCell id="nc1" style="edgeStyle=none;html=1;endArrow=none;strokeColor=#ffffff;" edge="1" parent="1" source="new_danapac" target="new_influx_danapac"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="nc2" style="edgeStyle=none;html=1;endArrow=none;strokeColor=#ffffff;" edge="1" parent="1" source="new_danapac" target="new_equipment_danapac"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="nc3" style="edgeStyle=none;html=1;endArrow=none;strokeColor=#ffffff;" edge="1" parent="1" source="new_demo" target="new_energy"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="nc4" style="edgeStyle=none;html=1;endArrow=none;strokeColor=#ffffff;" edge="1" parent="1" source="new_demo" target="new_influx_shared"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="nc5" style="edgeStyle=none;html=1;endArrow=none;strokeColor=#ffffff;" edge="1" parent="1" source="new_thonguan" target="new_equipment_shared"><mxGeometry relative="1" as="geometry" /></mxCell>
+
+        <mxCell id="note_new_1" value="Danapac now has its own separate Influx and Equipment Monitoring —&#10;no longer the same boxes that Demo uses." style="text;html=1;fontSize=11;fontColor=#99cc99;align=left;" vertex="1" parent="1">
+          <mxGeometry x="60" y="1040" width="320" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="note_new_2" value="Demo and Thonguan keep sharing the same boxes as before —&#10;nothing changes for them." style="text;html=1;fontSize=11;fontColor=#99cc99;align=left;" vertex="1" parent="1">
+          <mxGeometry x="440" y="1040" width="320" height="40" as="geometry" />
+        </mxCell>
+
+        <mxCell id="new_explain" value="RESULT&#10;Changing or updating Danapac's side can never affect Demo or Thonguan, and the other way around — because they no longer&#10;share the same Energy/Equipment/Influx boxes. Each side can be updated on its own schedule, safely." style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#99cc99;fontColor=#99cc99;align=left;spacingLeft=10;spacingTop=6;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1100" width="900" height="70" as="geometry" />
+        </mxCell>
+
+        <!-- ===================== TWO WAYS TO GET THERE ===================== -->
+        <mxCell id="ways_label" value="TWO WAYS TO GET TO THE PROPOSED SETUP" style="text;html=1;fontSize=16;fontStyle=1;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="20" y="1210" width="600" height="30" as="geometry" />
+        </mxCell>
+
+        <mxCell id="option_a_title" value="OPTION A — Give Danapac its own separate server" style="text;html=1;fontSize=14;fontStyle=1;fontColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1260" width="500" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="option_a_box" value="What changes: Danapac's app starts talking to a brand-new, separate server instead of the shared one.&#10;That new server connects to Danapac's existing database exactly as it does today — nothing about&#10;the database itself changes.&#10;&#10;+ Quick to set up&#10;+ Nothing about Danapac's existing data or behaviour changes&#10;+ Zero risk to Demo or Thonguan, zero risk to Danapac's own data&#10;&#10;− Two separate things to keep updated going forward (a fix may need to be made in both places)&#10;− Doesn't solve the underlying reason Danapac was treated differently in the first place" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#82b366;fontColor=#ffffff;align=left;spacingLeft=10;spacingTop=6;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1300" width="560" height="220" as="geometry" />
+        </mxCell>
+
+        <mxCell id="option_b_title" value="OPTION B — Set Danapac up properly, the same way Thonguan was" style="text;html=1;fontSize=14;fontStyle=1;fontColor=#f8cecc;" vertex="1" parent="1">
+          <mxGeometry x="640" y="1260" width="600" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="option_b_box" value="What changes: Danapac gets registered as a proper client, the same way Thonguan is. Its database&#10;then gets picked automatically based on who's logged in, instead of always defaulting to Danapac.&#10;To make that work, Danapac's existing column/field names need to be renamed to match the common&#10;format that every other client already uses.&#10;&#10;+ Cleanest long-term setup: one server, one consistent way of doing things, for every client&#10;&#10;− RISKY: renaming columns/fields on Danapac's LIVE, currently-working database can break&#10;  existing dashboards and reports that already depend on those exact names today&#10;− A mistake here affects real data that people are using right now&#10;− Needs careful, step-by-step testing before switching over — not a quick change" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#f8cecc;fontColor=#ffffff;align=left;spacingLeft=10;spacingTop=6;" vertex="1" parent="1">
+          <mxGeometry x="640" y="1300" width="560" height="220" as="geometry" />
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

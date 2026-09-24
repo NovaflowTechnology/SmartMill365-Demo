@@ -1,0 +1,6 @@
+﻿ERROR|SYNTACTIC_ERROR|EXPECTED_TOKEN|C:\\Users\\GAJAH\\Desktop\\materi mama mini\\novaflow2\\SMARTFACTORY365-DEMO\\lib\\web_app_template\\side_nav\\side_nav_widget.dart|1649|30|1|Expected to find ';'.
+ERROR|SYNTACTIC_ERROR|UNTERMINATED_MULTI_LINE_COMMENT|C:\\Users\\GAJAH\\Desktop\\materi mama mini\\novaflow2\\SMARTFACTORY365-DEMO\\lib\\web_app_template\\side_nav\\side_nav_widget.dart|3580|3|1|Unterminated multi-line comment.
+ERROR|SYNTACTIC_ERROR|EXPECTED_TOKEN|C:\\Users\\GAJAH\\Desktop\\materi mama mini\\novaflow2\\SMARTFACTORY365-DEMO\\lib\\web_app_template\\side_nav\\side_nav_widget.dart|3581|1|1|Expected to find ')'.
+ERROR|SYNTACTIC_ERROR|EXPECTED_TOKEN|C:\\Users\\GAJAH\\Desktop\\materi mama mini\\novaflow2\\SMARTFACTORY365-DEMO\\lib\\web_app_template\\side_nav\\side_nav_widget.dart|3581|1|1|Expected to find ']'.
+ERROR|SYNTACTIC_ERROR|EXPECTED_TOKEN|C:\\Users\\GAJAH\\Desktop\\materi mama mini\\novaflow2\\SMARTFACTORY365-DEMO\\lib\\web_app_template\\side_nav\\side_nav_widget.dart|3581|1|1|Expected to find '}'.
+WARNING|STATIC_WARNING|UNUSED_ELEMENT|C:\\Users\\GAJAH\\Desktop\\materi mama mini\\novaflow2\\SMARTFACTORY365-DEMO\\lib\\web_app_template\\side_nav\\side_nav_widget.dart|63|16|7|The declaration '_logout' isn't referenced.

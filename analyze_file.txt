@@ -1,0 +1,14 @@
+Analyzing realtimepowercard_widget.dart...
+
+  error - realtimepowercard_widget.dart:154:41 - Too many positional arguments: 0 expected, but 1 found. Try removing the extra positional arguments, or specifying the name for named arguments. - extra_positional_arguments_could_be_named
+  error - realtimepowercard_widget.dart:206:39 - Expected to find ')'. - expected_token
+  error - realtimepowercard_widget.dart:291:33 - Expected an identifier. - missing_identifier
+  error - realtimepowercard_widget.dart:291:33 - Expected to find ']'. - expected_token
+warning - realtimepowercard_widget.dart:13:7 - The declaration '_kGreen' isn't referenced. Try removing the declaration of '_kGreen'. - unused_element
+   info - realtimepowercard_widget.dart:7:8 - The import of 'package:intl/intl.dart' is unnecessary because all of the used elements are also provided by the import of '/flutter_flow/flutter_flow_util.dart'. Try removing the import directive. - unnecessary_import
+   info - realtimepowercard_widget.dart:16:16 - The variable name 'peak_energy' isn't a lowerCamelCase identifier. Try changing the name to follow the lowerCamelCase style. - non_constant_identifier_names
+   info - realtimepowercard_widget.dart:17:16 - The variable name 'average_energy' isn't a lowerCamelCase identifier. Try changing the name to follow the lowerCamelCase style. - non_constant_identifier_names
+   info - realtimepowercard_widget.dart:24:19 - The variable name 'peak_energy' isn't a lowerCamelCase identifier. Try changing the name to follow the lowerCamelCase style. - non_constant_identifier_names
+   info - realtimepowercard_widget.dart:25:19 - The variable name 'average_energy' isn't a lowerCamelCase identifier. Try changing the name to follow the lowerCamelCase style. - non_constant_identifier_names
+
+10 issues found.

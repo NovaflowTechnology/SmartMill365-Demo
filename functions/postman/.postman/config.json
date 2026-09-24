@@ -1,0 +1,15 @@
+{
+  "workspace": {
+    "id": "ba594feb-087f-43ef-84cf-41c65179ab1e"
+  },
+  "entities": {
+    "environments": [],
+    "flows": [],
+    "globals": [],
+    "mocks": [],
+    "specs": [],
+    "collections": [
+      "..\\password_reset.postman_collection.json"
+    ]
+  }
+}

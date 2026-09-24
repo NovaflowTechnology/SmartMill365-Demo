@@ -1,0 +1,113 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="API Architecture - Current vs Proposed" id="api-arch-1">
+    <mxGraphModel dx="1400" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1400" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <!-- ===================== SECTION TITLE: CURRENT ===================== -->
+        <mxCell id="title_current" value="CURRENT — Single Shared API for All Clients" style="text;html=1;fontSize=20;fontStyle=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="40" y="20" width="720" height="30" as="geometry" />
+        </mxCell>
+
+        <mxCell id="cur_frontend" value="Flutter Web App&#10;(AppConfig.headers: x-client-id)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="280" y="70" width="220" height="60" as="geometry" />
+        </mxCell>
+
+        <mxCell id="cur_func" value="Cloud Function: api&#10;(smartmachine365-gm3bl9 / ui7 host)&#10;functions/api/*.js — Express router" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="260" y="180" width="260" height="70" as="geometry" />
+        </mxCell>
+
+        <mxCell id="cur_route" value="dbConnections.js&#10;getClientFirestore(clientId) / getMysqlPool(clientId) / getInfluxClient(clientId)&#10;routes by x-client-id header" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="180" y="290" width="460" height="60" as="geometry" />
+        </mxCell>
+
+        <mxCell id="cur_danapac" value="Danapac&#10;(DEFAULT fallback)&#10;hardcoded Danapac_Database MySQL pool&#10;+ default Firestore + default Influx" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="40" y="400" width="220" height="90" as="geometry" />
+        </mxCell>
+
+        <mxCell id="cur_thongguan" value="Thong Guan&#10;own Firestore (thongguansf365)&#10;own Influx schema/bucket&#10;via integration_config" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="290" y="400" width="220" height="90" as="geometry" />
+        </mxCell>
+
+        <mxCell id="cur_others" value="Other clients...&#10;(Intech, etc.)&#10;own config via integration_config" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="540" y="400" width="220" height="90" as="geometry" />
+        </mxCell>
+
+        <mxCell id="e1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" edge="1" parent="1" source="cur_frontend" target="cur_func">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" edge="1" parent="1" source="cur_func" target="cur_route">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e3" value="no x-client-id&#10;(fallback)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" edge="1" parent="1" source="cur_route" target="cur_danapac">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e4" value="x-client-id=&#39;F0004&#39;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" edge="1" parent="1" source="cur_route" target="cur_thongguan">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e5" value="x-client-id=&#39;...&#39;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" edge="1" parent="1" source="cur_route" target="cur_others">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <mxCell id="cur_risk" value="Risk: one shared function — a bug or bad deploy for one client&#10;can break/slow down ALL clients at once." style="text;html=1;fontSize=12;fontStyle=2;align=center;fontColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="180" y="510" width="460" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- ===================== SECTION TITLE: PROPOSED ===================== -->
+        <mxCell id="title_proposed" value="PROPOSED — Dedicated API for Danapac, Shared API for the Rest" style="text;html=1;fontSize=20;fontStyle=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="40" y="600" width="900" height="30" as="geometry" />
+        </mxCell>
+
+        <mxCell id="new_frontend" value="Flutter Web App&#10;(AppConfig.headers: x-client-id)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="280" y="650" width="220" height="60" as="geometry" />
+        </mxCell>
+
+        <mxCell id="new_dispatch" value="Frontend picks base URL by client&#10;(AppConfig: apiBaseForClient)" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="320" y="740" width="140" height="80" as="geometry" />
+        </mxCell>
+
+        <mxCell id="new_func_danapac" value="NEW Cloud Function: api-danapac&#10;separate deploy target&#10;functions/api/danapac/*.js" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="80" y="870" width="240" height="70" as="geometry" />
+        </mxCell>
+
+        <mxCell id="new_func_shared" value="EXISTING Cloud Function: api&#10;(ui7 host, unchanged)&#10;functions/api/*.js" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="480" y="870" width="240" height="70" as="geometry" />
+        </mxCell>
+
+        <mxCell id="new_danapac_db" value="Danapac MySQL + Influx + Firestore&#10;dedicated, isolated from other clients" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="80" y="980" width="240" height="60" as="geometry" />
+        </mxCell>
+
+        <mxCell id="new_other_db" value="Thong Guan / Intech / others&#10;routed by x-client-id as today" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="480" y="980" width="240" height="60" as="geometry" />
+        </mxCell>
+
+        <mxCell id="ne1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" edge="1" parent="1" source="new_frontend" target="new_dispatch">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ne2" value="client = Danapac" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" edge="1" parent="1" source="new_dispatch" target="new_func_danapac">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ne3" value="client = anyone else" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" edge="1" parent="1" source="new_dispatch" target="new_func_shared">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ne4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" edge="1" parent="1" source="new_func_danapac" target="new_danapac_db">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ne5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" edge="1" parent="1" source="new_func_shared" target="new_other_db">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <mxCell id="deploy_note" value="Deploy separately:&#10;firebase deploy --only functions:apiDanapac&#10;firebase deploy --only functions:api&#10;(each can be deployed independently without affecting the other)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="780" y="870" width="320" height="90" as="geometry" />
+        </mxCell>
+
+        <mxCell id="benefit_note" value="Benefit: Danapac changes/deploys can never break&#10;Thong Guan/Intech/others, and vice versa." style="text;html=1;fontSize=12;fontStyle=2;align=center;fontColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="80 " y="1060" width="640" height="30" as="geometry" />
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
